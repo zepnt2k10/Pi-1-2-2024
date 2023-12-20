@@ -1,0 +1,972 @@
+\thispagestyle{thachthuctoanhocnone}
+\pagestyle{thachthuctoanhoc}
+\everymath{\color{thachthuctoanhoc}}
+\graphicspath{{../thachthuctoanhoc/pic/}}
+\begingroup
+\AddToShipoutPicture*{\put(0,616){\includegraphics[width=19.3cm]{../thachthuctoanhoc/bannerthachthuc}}}
+\centering
+\vspace*{4cm}
+\endgroup
+\vspace*{-8pt}
+\begin{tBox}
+	\begin{itemize}[leftmargin = 13pt, itemsep = 1.0pt] 
+		\item Mỗi bài toán đề xuất (kèm theo lời giải) cần được nêu rõ là bài sáng tác hay bài sưu tầm.
+		%		\item Mỗi bài toán đề xuất (kèm theo lời giải) cần được nêu rõ là bài sáng tác hay bài sưu tầm (nếu là bài sưu tầm, cần ghi rõ nguồn).
+		\item Bài giải cho mỗi bài toán cần được trình bày trong một file riêng hoặc
+		một tờ giấy riêng.
+		\item  Người đề xuất bài toán hoặc gửi bài giải cho các bài toán trong mục ``Thách thức kỳ này" cần ghi rõ họ, đệm, tên và nơi làm việc/học tập, số điện thoại liên hệ. Nếu là học sinh (hoặc sinh viên) cần ghi rõ là học sinh lớp mấy (hoặc sinh viên năm thứ mấy).
+		\item Các bài toán trong mục Thách thức kỳ này hướng tới các độc giả là học sinh phổ thông; được phân chia thành các mức độ $B$, $A$, và được sắp xếp theo độ khó tăng dần, theo đánh giá chủ quan của Ban biên tập. Các bài toán mức độ $B$ không đòi hỏi các kiến thức vượt quá chương trình môn Toán cấp THCS; các bài toán mức độ $A$ không đòi hỏi các kiến thức vượt quá chương trình môn Toán cấp THPT.
+		\item Cách thức gửi bài toán đề xuất hoặc lời giải: gửi file thu được bằng cách scan, ảnh chụp (rõ nét) của bản viết tay, hoặc được soạn thảo bằng các phần mềm Latex, Word tới \url{bbt@pi.edu.vn} hoặc gửi qua đường bưu điện tới Tòa soạn (xem địa chỉ tại bìa $2$).
+		\item Hạn gửi lời giải cho các bài toán P$761$--P$770$: trước ngày $15/1/2024$.
+	\end{itemize}
+\end{tBox}
+\begin{center}
+	\vspace*{-5pt}
+	\textbf{\color{thachthuctoanhoc}\color{thachthuctoanhoc}\color{thachthuctoanhoc}\color{thachthuctoanhoc}\color{thachthuctoanhoc}THÁCH THỨC KỲ NÀY}
+	\vspace*{-5pt}
+\end{center}
+\begin{multicols}{2}
+	\setlength{\abovedisplayskip}{4pt}
+	\setlength{\belowdisplayskip}{4pt}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P761.}}
+	(Mức $B$) Mỗi  bạn An, Bình, Huệ, Nga đều có một món tiền tiết kiệm. Biết rằng tổng số tiền tiết kiệm của hai bạn bất kì trong $4$ bạn đó là $1900, 2070, 2110, 2330, 2500$ và $x$ nghìn đồng. Tìm $x$.
+	\begin{flushright}
+		\textit{Hoàng Việt Vương, Hà Nội}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P762.}}
+	(Mức $B$) Cho đa giác đều có $2024$ đỉnh, tại mỗi đỉnh ta viết một số nguyên dương không vượt quá $1011$ (mỗi đỉnh viết một số). Chứng minh rằng tồn tại $4$ đỉnh $A,B,C,D$ của đa giác sao cho $ABCD$ là hình chữ nhật, và  $a+b=c+d$, trong đó $a,b,c,d$ tương ứng là các số lần lượt được viết tại các đỉnh $A,B,C,D$. 
+	\begin{flushright}
+		\textit{Nguyễn Đức Tấn, Tp. Hồ Chí Minh (st)}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P762.}}
+	(Mức $B$) Cho tam giác $A B C$ có trọng tâm $G$. Dựng ra phía ngoài tam giác đó các tam giác $ABM$ và $ACN$ sao cho $\angle B A M=45^{\circ}$, $A B=3\sqrt2 A M$,  $\angle N A C=90^{\circ}$ và $A C=3 A N$. Chứng minh rằng $\angle G M N=90^{\circ}$.
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\definecolor{qqzzcc}{rgb}{0,0.6,0.8}
+		\definecolor{qqqqff}{rgb}{0,0,1}
+		\definecolor{qqqqffa}{rgb}{1,1,1}
+		\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+		\begin{tikzpicture}[thachthuctoanhoc,scale=0.58]
+			\draw (-1.790333665478168,4.460157886210201) -- (-1.6004915516883682,4.669824220732033) -- (-1.8101578862102001,4.859666334521832) -- (-2,4.65) -- cycle; 
+			\draw [shift={(-2,4.65)}] (0,0) -- (-151.55958953937227:0.7) arc (-151.55958953937227:-106.55958953937227:0.7) -- cycle;
+			\draw [color=qqzzcc] (-2,4.65)-- (-3.68,-1);
+			\draw [color=qqzzcc] (-3.68,-1)-- (4.24,-1);
+			\draw [color=qqzzcc] (4.24,-1)-- (-2,4.65);
+			\draw  (-3.2216666666666667,3.9883333333333337)-- (-3.68,-1);
+			\draw  (-3.2216666666666667,3.9883333333333337)-- (-2,4.65);
+			\draw  (-2,4.65)-- (-0.11666666666666714,6.73);
+			\draw  (-0.11666666666666714,6.73)-- (4.24,-1);
+			\draw  (-3.2216666666666667,3.9883333333333337)-- (-0.48,0.8833333333333334);
+			\draw  (-0.48,0.8833333333333334)-- (-0.11666666666666714,6.73);
+			\draw  (-0.11666666666666714,6.73)-- (-3.2216666666666667,3.9883333333333337);
+			\draw (-2.65,4.55) node[anchor=north west] {\tiny$45^\circ$};
+			\draw [fill = white] (-2,4.65) circle (1.5pt);
+			\draw[color=qqqqff] (-2.12,5.08) node {$A$};
+			\draw [fill = white] (-3.68,-1) circle (1.5pt);
+			\draw[color=qqqqff] (-3.92,-1.36) node {$B$};
+			\draw [fill = white] (4.24,-1) circle (1.5pt);
+			\draw[color=qqqqff] (4.18,-1.36) node {$C$};
+			\draw [fill = white] (-3.2216666666666667,3.9883333333333337) circle (1.5pt);
+			\draw[color=qqqqff] (-3.54,4.34) node {$M$};
+			\draw [fill = white] (-0.11666666666666714,6.73) circle (1.5pt);
+			\draw[color=qqqqff] (0.04,7.04) node {$N$};
+			\draw [fill = white] (-0.48,0.8833333333333334) circle (1.5pt);
+			\draw[color=qqqqff] (-0.52,0.44) node {$G$};
+		\end{tikzpicture}
+		\vspace*{-15pt}
+	\end{figure}
+	\begin{flushright}
+		\textit{Trần Việt Anh, Nam Định}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P764.}}
+	(Mức $B$) Tìm tất cả các bộ ba số thực $(x,y,z)$, với $x,y,z\in\left(0,\frac12\right)$ và  thoả mãn 
+	\begin{align*}
+		\begin{cases}
+			\left(3x^2+y^2\right)\sqrt{1-4z^2}\ge z&\\
+			\left(3y^2+z^2\right)\sqrt{1-4x^2}\ge x&\\
+			\left(3z^2+x^2\right)\sqrt{1-4y^2}\ge y.
+		\end{cases}
+	\end{align*}
+	\begin{flushright}
+		\textit{Ngô Văn Trang, Bắc Ninh}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P765.}}
+	(Mức $B$) Cho số nguyên dương $n$. Gọi $A$ là tích tất cả các số nguyên dương không vượt quá $2n+1$, $B$ là tích tất cả các số nguyên dương lẻ không vượt quá $2n+1$ và $C$ là tích tất cả các số nguyên dương chẵn không vượt quá $2n$. Chứng minh rằng $4A+(B-C-1)^2$ không phải là số chính phương.
+	\begin{flushright}
+		\textit{Hà Duy Hưng, Hà Nội}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P766.}}
+	(Mức $B$) Cho $a,b,c$ là các số dương. Chứng minh rằng
+	\begin{align*}
+		&\dfrac{a^2}{a^2+3ab+2b^2}+\dfrac{b^2}{b^2+3bc+2c^2}\\
+		&+\dfrac{c^2}{c^2+3ca+2a^2}\ge \dfrac12.
+	\end{align*}
+	\begin{flushright}
+		\textit{Ngô Văn Thái, Thái Bình}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P767.}}
+	(Mức $A$) Cho $x,y,z$ là các số thực không âm thoả mãn $x^2+y^2+z^2=3$. Chứng minh rằng
+	\begin{align*}
+		&3(x+y+x+xyz)\\
+		\ge\, &4\sqrt{(x^2+yz)(y^2+zx)(z^2+xy)}.
+	\end{align*}
+	\begin{flushright}
+		\textit{Hoàng Ngọc Minh, Hà Nội}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P768.}}
+	(Mức $A$) Cho $a$ là một số nguyên dương lẻ và không phải là số chính phương. Chứng minh rằng
+	\begin{align*}
+		\left[m(a+\sqrt a)\right]\ne \left[n(a-\sqrt a)\right]
+	\end{align*}
+	với mọi số nguyên dương $m,n$. 
+	\begin{flushright}
+		\textit{Nguyễn Hoàng Duy, Thái Bình (st)}
+	\end{flushright}
+	\vskip 0.1cm
+	\columnbreak
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P769.}}
+	(Mức $A$) Cho tam giác không cân $ABC$ nội tiếp đường tròn $(O)$. $K$ là một điểm (khác $A$) trên tiếp tuyến tại $A$ của $(O)$. $\Delta$ là một đường thẳng đi qua $K$, cắt $BC, CA, AB$ lần lượt tại $D, E, F$. Chứng minh rằng tâm đẳng phương của các đường tròn: đường tròn đường kính $EF$, đường tròn đường kính $DK$, đường tròn $(O)$ thuộc đường thẳng $\Delta.$
+	\begin{center}
+		\definecolor{qqqqff}{rgb}{0,0,1}
+		\definecolor{qqqqffa}{rgb}{1,1,1}
+		\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+		\begin{tikzpicture}[thachthuctoanhoc, scale=0.54]
+			\draw  (-4.38,5.01)-- (-5.56,-0.3);
+			\draw  (-5.56,-0.3)-- (1.58,-0.3);
+			\draw  (1.58,-0.3)-- (-4.38,5.01);
+			\draw  (-1.99,1.6927777777777777) circle (4.08852825251397cm);
+			\draw  (-7.256570958905223,2.93748144947073)-- (5.1899690781026155,-0.3);
+			\draw  (1.58,-0.3)-- (5.1899690781026155,-0.3);
+			\draw  (-7.256570958905223,2.93748144947073)-- (-4.38,5.01);
+			\draw [fill = white] (-4.38,5.01) circle (1.5pt);
+			\draw[color=qqqqff] (-4.44,5.5) node {$A$};
+			\draw [fill = white] (-5.56,-0.3) circle (1.5pt);
+			\draw[color=qqqqff] (-5.94,-0.5) node {$B$};
+			\draw [fill = white] (1.58,-0.3) circle (1.5pt);
+			\draw[color=qqqqff] (1.7,-0.73) node {$C$};
+			\draw [fill = white] (-7.256570958905223,2.93748144947073) circle (1.5pt);
+			\draw[color=qqqqff] (-7.72,3.06) node {$K$};
+			\draw [fill = white] (5.1899690781026155,-0.3) circle (1.5pt);
+			\draw[color=qqqqff] (5.14,-0.73) node {$D$};
+			\draw [fill = white] (0.09149352555368925,1.0261693589446155) circle (1.5pt);
+			\draw[color=qqqqff] (0.2,1.52) node {$E$};
+			\draw [fill = white] (-4.972579921493512,2.343390353279194) circle (1.5pt);
+			\draw[color=qqqqff] (-5.22,2.8) node {$F$};
+		\end{tikzpicture}
+	\end{center}
+	\begin{flushright}
+		\textit{Lưu Công Đông, Hà Nội}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P770.}}
+	(Mức $A$) Cho phép thực hiện việc đổi chỗ các số hạng trong một hoán vị, theo qui tắc: Mỗi lần, lấy ra khỏi hoán vị tám số hạng tùy ý của nó, rồi lại xếp tám số hạng đó vào tám vị trí mà chúng đã nằm, nhưng theo thứ tự ngược lại.
+	Hỏi, nhờ việc thực hiện liên tiếp một số hữu hạn lần phép đổi chỗ nói trên đối với hoán vị $(1,2,\ldots,2023)$ của $2023$ số nguyên dương đầu tiên, ta có thể nhận được hoán vị $(2023,2022,\ldots,1)$ hay không?
+	\begin{flushright}
+		\textit{Nguyễn Khắc Minh, Hà Nội}
+	\end{flushright}
+\end{multicols}
+\newpage
+\centerline{{\large{\textbf{\color{thachthuctoanhoc}\color{thachthuctoanhoc}\color{thachthuctoanhoc}GIẢI BÀI KỲ TRƯỚC}}}}
+\vspace*{-5pt}
+\begin{multicols}{2}
+	\setlength{\abovedisplayskip}{5pt}
+	\setlength{\belowdisplayskip}{5pt}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P731.}}
+	(Mức $B$) Ghép chín hình vuông thành một hình chữ nhật, như ở hình dưới đây. Biết rằng, hình vuông màu đen có cạnh bằng $1$. Tìm chiều dài và chiều rộng của hình chữ nhật.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[thachthuctoanhoc,scale=0.15]
+			\draw[fill=black] (0,0) rectangle (1,1);
+			\draw  (0.,-9.)-- (9.,-9.);
+			\draw  (9.,-9.)-- (9.,0.);
+			\draw  (9.,0.)-- (0.,0.);
+			\draw  (0.,0.)-- (0.,-9.);
+			\draw  (1.,0.)-- (9.,0.);
+			\draw  (9.,0.)-- (9.,8.);
+			\draw  (9.,8.)-- (1.,8.);
+			\draw  (1.,8.)-- (1.,0.);
+			\draw  (-10.,-9.)-- (0.,-9.);
+			\draw  (0.,-9.)-- (0.,1.);
+			\draw  (0.,1.)-- (-10.,1.);
+			\draw  (-10.,1.)-- (-10.,-9.);
+			\draw  (-6.,1.)-- (1.,1.);
+			\draw  (1.,1.)-- (1.,8.);
+			\draw  (1.,8.)-- (-6.,8.);
+			\draw  (-6.,8.)-- (-6.,1.);
+			\draw  (-10.,1.)-- (-6.,1.);
+			\draw  (-6.,1.)-- (-6.,5.);
+			\draw  (-6.,5.)-- (-10.,5.);
+			\draw  (-10.,5.)-- (-10.,1.);
+			\draw  (-6.,8.)-- (9.,8.);
+			\draw  (9.,8.)-- (9.,23.);
+			\draw  (9.,23.)-- (-6.,23.);
+			\draw  (-6.,23.)-- (-6.,8.);
+			\draw  (-24.,-9.)-- (-10.,-9.);
+			\draw  (-10.,-9.)-- (-10.,5.);
+			\draw  (-10.,5.)-- (-24.,5.);
+			\draw  (-24.,5.)-- (-24.,-9.);
+			\draw  (-24.,5.)-- (-6.,5.);
+			\draw  (-6.,5.)-- (-6.,23.);
+			\draw  (-6.,23.)-- (-24.,23.);
+			\draw  (-24.,23.)-- (-24.,5.);	
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure} 
+	\textbf{\color{thachthuctoanhoc}Lời giải} \textit{(dựa theo tất cả lời giải Tạp chí đã nhận được từ bạn đọc})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Đặt tên các hình vuông như ở hình vẽ dưới đây:
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\begin{tikzpicture}[thachthuctoanhoc,scale=0.15]
+			\draw[fill=black] (0,0) rectangle (1,1);
+			\draw  (0.,-9.)-- (9.,-9.);
+			\draw  (9.,-9.)-- (9.,0.);
+			\draw (4.5,-4.5) node {$H$};
+			\draw (5,4) node {$F$};
+			\draw (-2.5,4.5) node {$E$};
+			\draw (-5,-4.5) node {$G$};
+			\draw (-8,3) node {$D$};
+			\draw (1,15.5) node {$B$};
+			\draw (-15,14) node {$A$};
+			\draw (-16.5,-3) node {$C$};
+			\draw  (9.,0.)-- (0.,0.);
+			\draw  (0.,0.)-- (0.,-9.);
+			\draw  (1.,0.)-- (9.,0.);
+			\draw  (9.,0.)-- (9.,8.);
+			\draw  (9.,8.)-- (1.,8.);
+			\draw  (1.,8.)-- (1.,0.);
+			\draw  (-10.,-9.)-- (0.,-9.);
+			\draw  (0.,-9.)-- (0.,1.);
+			\draw  (0.,1.)-- (-10.,1.);
+			\draw  (-10.,1.)-- (-10.,-9.);
+			\draw  (-6.,1.)-- (1.,1.);
+			\draw  (1.,1.)-- (1.,8.);
+			\draw  (1.,8.)-- (-6.,8.);
+			\draw  (-6.,8.)-- (-6.,1.);
+			\draw  (-10.,1.)-- (-6.,1.);
+			\draw  (-6.,1.)-- (-6.,5.);
+			\draw  (-6.,5.)-- (-10.,5.);
+			\draw  (-10.,5.)-- (-10.,1.);
+			\draw  (-6.,8.)-- (9.,8.);
+			\draw  (9.,8.)-- (9.,23.);
+			\draw  (9.,23.)-- (-6.,23.);
+			\draw  (-6.,23.)-- (-6.,8.);
+			\draw  (-24.,-9.)-- (-10.,-9.);
+			\draw  (-10.,-9.)-- (-10.,5.);
+			\draw  (-10.,5.)-- (-24.,5.);
+			\draw  (-24.,5.)-- (-24.,-9.);
+			\draw  (-24.,5.)-- (-6.,5.);
+			\draw  (-6.,5.)-- (-6.,23.);
+			\draw  (-6.,23.)-- (-24.,23.);
+			\draw  (-24.,23.)-- (-24.,5.);	
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure} 
+	Gọi $a, b, c, d, e, g, h$ tương ứng là độ dài cạnh của các hình vuông $A, B, C, D, E, G, H$.
+	\vskip 0.1cm
+	Gọi $x$ là độ dài cạnh của hình vuông $F$.
+	\vskip 0.1cm
+	Khi đó, do hình vuông màu đen có cạnh bằng $1$, nên
+	\begin{align*}
+		&e = x - 1; b = e + x = 2x - 1;\\
+		&h = x + 1; g = h + 1 = x + 2;\\
+		&d = g - (e - 1) = (x + 2) - (x - 2) = 4;\\
+		&c = g + d = (x + 2) + 4 = x + 6;\\
+		&a = c + d = (x + 6) + 4 = x + 10.
+	\end{align*}
+	Từ đó, do $a + c = b + x + h$, nên ta có:
+	\begin{align*}
+		(x + 10) + (x + 6) = (2x - 1) + x + (x + 1).
+	\end{align*}
+	Suy ra, $2x + 16 = 4x$. Do đó, $x = 8$. Suy ra
+	\begin{align*}
+		&a = 8 + 10 = 18, b = 2\cdot8 - 1 = 15 \\
+		\text{ và } &c = 8 + 6 = 14.
+	\end{align*}
+	Vì vậy, hình chữ nhật có chiều dài là:
+	\begin{align*}
+		18 + 15 = 33,
+	\end{align*}
+	và chiều rộng là: $18 + 14 = 32$.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm	
+	Tất cả lời giải Tạp chí đã nhận được từ bạn đọc đều là lời giải đúng và hoàn chỉnh.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Hà Thanh}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P732.}}
+	(Mức $B$) Xét bốn số thực (không nhất thiết đôi một khác nhau), mà mỗi số có trị tuyệt đối không vượt quá $\dfrac{1}{2}$, và tổng của ba số bất kỳ, trong bốn số đó, là một số nguyên. Tìm tất cả các giá trị có thể của tổng bốn số đó.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{phỏng theo cách giải của bạn Ngô Minh Chấn, lớp $9$A$3$, trường TH$\&$THCS Archimedes Đông Anh, Tp. Hà Nội})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Gọi $a, b, c, d$ là bốn số thực thỏa mãn các điều kiện đã nêu trong đề bài.
+	\vskip 0.05cm
+	Đặt $x = a \!+\! b \!+\! c$, $y = a \!+\! b \!+\! d$, $z = a \!+\! c \!+\! d$, $t = b + c + d$, và
+	$s = a + b + c + d$.
+	\vskip 0.05cm
+	Khi đó, theo giả thiết của bài ra, ta có:
+	\begin{align*}
+		|a| \le \frac{1}{2}, |b| \le \frac{1}{2},|c| \le \frac{1}{2},|d| \le \frac{1}{2}; \tag{$1$}
+	\end{align*}
+	và $x, y, z, t$ là các số nguyên.        \hfill ($2$)
+	\vskip 0.05cm
+	Xét cặp số $x, y$.
+	Do ($2$) nên $x - y$ là một số nguyên; hơn nữa
+	\begin{align*}
+		\left| {x - y} \right| &= \left| {c - d} \right| \le |c| + \left| {d} \right| \\
+		&\le 1 \quad\text{(do ($1$))}. \tag{$3$}
+	\end{align*}
+	Vì thế, $\left| {x - y} \right| \in \left\{ {0;1} \right\}.$ \hfill ($4$)
+	\vskip 0.05cm
+	Nếu $|x - y| = 1$  thì theo ($3$), phải có:
+	\begin{align*}
+		\left| {c - d} \right| = |c| + \left| {d} \right| = 1.
+	\end{align*}
+	Điều vừa nêu trên tương đương với
+	\begin{align*}
+	\quad\quad	\begin{cases}
+			cd \le 0\\
+			|c| = |d| = \dfrac{1}{2} \text{ (do ($1$)).} \quad\quad\quad\quad \text{($5$)} 
+		\end{cases}
+	\end{align*}
+	Suy ra, $c + d = 0$. Do đó, $z = a$ và $t = b$. Vì thế, $a,b \in \mathbb{Z}$  (do ($2$)). Từ đây và ($1$), suy ra $a = b = 0$.
+	\vskip 0.05cm
+	Vì vậy, $x = c$. Do đó,  $c \in \mathbb{Z}$. Từ đây và ($1$), suy ra $c = 0$, mâu thuẫn với ($5$).
+	\vskip 0.05cm
+	Mâu thuẫn nhận được ở trên cho thấy
+	\begin{align*}
+		|x - y| \ne 1.
+	\end{align*}
+	Do đó, từ ($4$) ta được $x = y$.
+	\vskip 0.05cm
+	Xét các cặp số $x, z$ và $x, t$, bằng cách hoàn toàn tương tự, ta sẽ được $x = z$ và $x = t$.
+	\vskip 0.05cm
+	Vì vậy, $x = y = z = t$. Suy ra
+	\begin{align*}
+		3s = x  + y + z + t = 4x;
+	\end{align*}
+	do đó, $s = \dfrac{4}{3}x$. \hfill ($6$)
+	\vskip 0.05cm
+	Tiếp theo, ta có:
+	\begin{align*}
+		|x| \le |a| + |b| + |c| \le \frac{3}{2} \quad\text{(do ($1$))}; 
+	\end{align*}
+	mà $|x| \in \mathbb{Z}$  (theo ($2$)), nên  $|x| \in \{0;1\}$. \hfill ($7$)
+	\vskip 0.05cm
+	Từ ($6$) và ($7$), suy ra $s \in \{-\dfrac{4}{3}; 0; \dfrac{4}{3}\}$.
+	\vskip 0.05cm 
+	Ngược lại, dễ thấy:
+	\vskip 0.05cm
+	$\bullet$ $a=b=c=d = -\dfrac{1}{3}$   là bốn số thực thỏa mãn các điều kiện của đề bài, và có tổng bằng $- \dfrac{4}{3}$;
+	\vskip 0.05cm  
+	$\bullet$  $a=b=c=d = 0$  là bốn số thực thỏa mãn các điều kiện của đề bài, và có tổng bằng $0$;
+	\vskip 0.05cm
+	$\bullet$ $a=b=c=d = \dfrac{1}{3}$   là bốn số thực thỏa mãn các điều kiện của đề bài, và có tổng bằng $\dfrac{4}{3}$;
+	\vskip 0.05cm  
+	Vậy, tất cả các giá trị có thể của tổng bốn số thỏa mãn các điều kiện của đề bài là:  $- \dfrac{4}{3}, 0, \dfrac{4}{3}$.
+	\vskip 0.05cm  
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Lời giải trên cho thấy, các bộ bốn số thực được liệt kê ở phần cuối của Lời giải là \textit{tất cả} các bộ bốn số thực thỏa mãn các điều kiện của đề bài.
+	\vskip 0.05cm
+	$\pmb{2.}$ Trong số các lời giải Tạp chí đã nhận được từ bạn đọc, rất tiếc, có hai lời giải sai, do người giải bài hoặc mới chỉ ra điều kiện cần (nhưng không đủ) cho giá trị của tổng bốn số đã vội kết luận đó là các giá trị có thể của tổng đó, hoặc đã chỉ ra sai các bộ bốn số thực thỏa mãn các điều kiện của đề bài. Bên cạnh đó, còn có một lời giải chưa đầy đủ, do người giải bài chưa xét hết các trường hợp có thể xảy~ra.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Hà Thanh}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P733.}}
+	(Mức $B$)
+	Tìm giá trị nhỏ nhất của biểu thức
+	\begin{align*}
+		S = \left\lfloor {\frac{{b + c}}{a}} \right\rfloor  + \left\lfloor {\frac{{c + a}}{b}} \right\rfloor  + \left\lfloor {\frac{{a + b}}{c}} \right\rfloor ,
+	\end{align*}
+	trong đó, $a, b, c$ là các biến nguyên dương.
+	($\left\lfloor x \right\rfloor $  ký hiệu số nguyên lớn nhất không vượt quá $x$.)
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo lời giải của các bạn: Ngô Minh Chấn, lớp $9$A$3$, trường TH$\&$THCS Archimedes Đông Anh, Tp. Hà Nội; Lê Nguyễn Hoàng Nhật Đình, lớp $9$C, trường THCS Nguyễn Thái Bình, tỉnh Cà Mau; Trương Anh Dũng, lớp $10$A$1$ chuyên Toán, trường THPT chuyên Vĩnh Phúc, tỉnh Vĩnh Phúc})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Từ định nghĩa phần nguyên của một số thực dễ thấy, với mọi số thực $x$, ta đều có
+	\begin{align*}
+		\left\lfloor x \right\rfloor  > x -1.
+	\end{align*}
+	Vì vậy, với lưu ý $a, b, c$ là các số dương, ta có:
+	\begin{align*}
+			S &> \frac{{b + c}}{a} + \frac{{c + a}}{b} + \frac{{a + b}}{c} - 3 \\
+			&= \left( {\frac{b}{a} + \frac{a}{b}} \right) + \left( {\frac{c}{a} + \frac{a}{c}} \right) + \left( {\frac{c}{b} + \frac{b}{c}} \right) - 3\\
+			 &\ge 2\sqrt {\frac{b}{a} \!\cdot\! \frac{a}{b}}  \!+\! 2\sqrt {\frac{c}{a} \!\cdot\! \frac{a}{c}}  \!+\! 2\sqrt {\frac{c}{b} \!\cdot\! \frac{b}{c}}  \!-\! 3 \!=\! 3.
+	\end{align*}
+	Từ đó, do $S$ là số nguyên, suy ra $S \ge 4$.
+	\vskip 0.05cm
+	Hơn nữa, dễ thấy, với $a = 3, b = c = 4$, ta có $S = 4$.
+	\vskip 0.05cm
+	Vì vậy, giá trị nhỏ nhất của $S$ bằng $4$.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Lời giải trên cho thấy, kết quả của bài ra không thay đổi, khi thay giả thiết ``$a, b, c$ là các biến nguyên dương" bởi giả thiết ``$a, b, c$ là các biến thực dương".
+	\vskip 0.05cm
+	$\pmb{2.}$ Trong số các lời giải Tạp chí đã nhận được từ bạn đọc, rất tiếc, có một lời giải sai, do người giải bài đã mắc sai sót về kiến thức cơ bản, khi khẳng định ``$\left\lfloor x \right\rfloor  \ge x$  với mọi số thực $x$".
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Lưu Thị Thanh Hà}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P734.}}
+	(Mức $B$) Cho hình vuông $ABCD$. Gọi $E$ là trung điểm của $AD$; $H$ là hình chiếu vuông góc của $B$ trên $CE$. Trên đường chéo $AC$, lấy điểm $M$ sao cho $AM = \dfrac{3}{8}AC$. Chứng minh rằng, $ME$ song song với $DH$.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo lời giải của bạn Nguyễn Nguyên Chinh, lớp $9$D, trường THCS Nguyễn Chí Thanh, tỉnh Phú Yên})\textbf{\color{thachthuctoanhoc}.}
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\definecolor{qqwuqq}{rgb}{0.,0.39215686274509803,0.}
+		\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+		\definecolor{qqqqff}{rgb}{0.,0.,1.}
+		\begin{tikzpicture}[thachthuctoanhoc,scale=0.45]
+			\draw [shift={(10.,5.)},pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (-116.56505117707799:0.8153190950798923) arc (-116.56505117707799:-90.:0.8153190950798923) -- cycle;
+			\draw [shift={(10.,-4.)},pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (153.43494882292202:0.8153190950798923) arc (153.43494882292202:180.:0.8153190950798923) -- cycle;
+			\draw[pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (6.743768714703979,-2.3718843573519894) -- (6.915653072055969,-2.028115642648011) -- (6.57188435735199,-1.8562312852960212) -- (6.4,-2.2) -- cycle; 
+			\draw[pattern color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (1.3843451073079143,-4.) -- (1.3843451073079143,-3.6156548926920857) -- (1.,-3.6156548926920857) -- (1.,-4.) -- cycle; 
+			\draw  (1.,5.)-- (10.,5.);
+			\draw  (1.,-4.)-- (10.,-4.);
+			\draw  (10.,-4.)-- (10.,5.);
+			\draw  (1.,5.)-- (10.,-4.);
+			\draw [color=qqqqff] (1.,0.5)-- (4.375,1.625);
+			\draw  (1.,0.5)-- (10.,-4.);
+			\draw [color=qqqqff] (6.4,-2.2)-- (1.,-4.);
+			\draw  (6.4,-2.2)-- (10.,5.);
+			\draw  (1.,-7.)-- (1.,-4.);
+			\draw [color=qqqqff] (1.,-7.)-- (10.,-4.);
+			\draw (-0.44481130622791615,6.007702325581402) node[anchor=north west] {$A$};
+			\draw (10.011222021831985,6.134879628750732) node[anchor=north west] {$B$};
+			\draw (10.038399325001315,-3.477176480514691) node[anchor=north west] {$C$};
+			\draw (-0.2002155777039485,-3.341289964668042) node[anchor=north west] {$D$};
+			\draw (-0.2002155777039485,1.1157877551020416) node[anchor=north west] {$E$};
+			\draw (5.934626546432524,-2.20639567157095424) node[anchor=north west] {$H$};
+			\draw (4.30398835627274,2.55618482307652) node[anchor=north west] {$M$};
+			\draw (0.44481130622791615,-6.92807467172924) node[anchor=north west] {$N$};
+			\draw  (1.,0.5)-- (1.,5.);
+			\draw  (0.8777021357380159,2.7024397194536727) -- (1.1222978642619836,2.7024397194536727);
+			\draw  (0.8777021357380159,2.797560280546327) -- (1.1222978642619836,2.797560280546327);
+			\draw  (1.,0.5)-- (1.,-4.);
+			\draw  (1.1222978642619836,-1.7024397194536725) -- (0.8777021357380159,-1.7024397194536725);
+			\draw  (1.1222978642619836,-1.7975602805463267) -- (0.8777021357380159,-1.7975602805463267);
+				\draw [fill=qqqqff] (1.,5.) circle (1.5pt);
+				\draw [fill=qqqqff] (10.,5.) circle (1.5pt);
+				\draw [fill=qqqqff] (10.,-4.) circle (1.5pt);
+				\draw [fill=qqqqff] (1.,-4.) circle (1.5pt);
+				\draw [fill=uuuuuu] (1.,0.5) circle (1.5pt);
+				\draw [fill=qqqqff] (4.375,1.625) circle (1.5pt);
+				\draw [fill=uuuuuu] (6.4,-2.2) circle (1.5pt);
+				\draw [fill=uuuuuu] (1.,-7.) circle (1.5pt);
+		\end{tikzpicture}
+		\vspace*{-10pt}
+	\end{figure}
+	Qua $C$, kẻ đường thẳng song song với $ME$, cắt đường thẳng $AD$ tại $N$.
+	\vskip 0.05cm
+	Khi đó, theo định lý Thales, ta có:
+	\begin{align*}
+		\frac{{AN}}{{AE}} = \frac{{AC}}{{AM}} = \frac{8}{3} \quad\text{(theo giả thiết).}
+	\end{align*}
+	Từ đó, với lưu ý $E$ là trung điểm của $AD$ (giả thiết), suy ra
+	\begin{align*}
+		\frac{{DN}}{{DE}} = \frac{{DN}}{{AE}} = \frac{{AN}}{{AE}} - \frac{{AD}}{{AE}} = \frac{8}{3} - 2 = \frac{2}{3}.
+	\end{align*}
+	Do đó
+	\begin{align*}
+		\frac{{NE}}{{ND}} &= \frac{{ND + DE}}{{ND}} = 1 + \frac{{DE}}{{ND}} \\
+		&= 1 + \frac{3}{2} = \frac{5}{2}. \tag{$1$}
+	\end{align*}
+	Đặt $AD = a$. Từ giả thiết của bài ra, ta có $CD = a$ và
+	\begin{align*}
+		AE = \frac{{AD}}{2} = \frac{a}{2}.
+	\end{align*}
+	Vì vậy, áp dụng định lý Pithagoras cho tam giác vuông $CDE$, ta được:
+	\begin{align*}
+		C{E^2} &= C{D^2} + D{E^2} \\
+		&= {a^2} + {\left( {\frac{a}{2}} \right)^2} = \frac{5}{4}{a^2}. \tag{$2$}
+	\end{align*}
+	Tiếp theo, do
+	\begin{align*}
+		\angle CBH = {90^{\rm{o}}} - \angle BCH = \angle DCE,
+	\end{align*}
+	nên tam giác vuông $BHC$ đồng dạng với tam giác vuông $CDE$. Do đó
+	\begin{align*}
+		\frac{{CH}}{{CB}} = \frac{{ED}}{{EC}};
+	\end{align*}
+	suy ra
+	\begin{align*}
+			\frac{{CH}}{{CE}} = \frac{{ED \cdot CB}}{{C{E^2}}} = \frac{{\dfrac{a}{2} \cdot a}}{{\dfrac{5}{4}{a^2}}}\quad\left( {{\rm{theo}}(2)} \right)\\
+			 = \frac{2}{5} = \frac{{ND}}{{NE}}\quad\left( {{\rm{theo}}(1)} \right).
+	\end{align*}
+	Do đó, $DH \parallel NC$ (theo định lý Thales); mà $NC \parallel ME$, nên $DH \parallel ME$.
+	\vskip 0.05cm
+	Ta có điều phải chứng minh theo yêu cầu đề bài. 
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	Trong số các lời giải Tạp chí đã nhận được từ bạn đọc, có một lời giải bằng phương pháp tọa độ. Rất tiếc, lời giải này được diễn đạt rất sai bằng ngôn ngữ Toán học; và vì thế, không thể coi là lời giải đúng.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Hạ Vũ Anh}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P735.}}
+	(Mức $B$) Tìm tất cả các số nguyên dương $n$, để $n! + n$ là một lũy thừa với số mũ nguyên dương của một số nguyên tố.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo đa số lời giải Tạp chí đã nhận được từ bạn đọc})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	$\bullet$ Giả sử $n$ là số nguyên dương thỏa mãn yêu cầu đề bài.
+	\vskip 0.05cm
+	Khi đó, tồn tại số nguyên tố $p$ và số nguyên dương $\alpha$, sao cho
+	\begin{align*}
+		n! + n = {p^\alpha },
+	\end{align*}
+	hay  
+	\begin{align*}
+		n\left( {\left( {n - 1} \right)! + 1} \right) = {p^\alpha }. \tag{$1$}
+	\end{align*}
+	Do $\left( {n - 1} \right)! + 1 > 1$  nên từ ($1$) suy ra, tồn tại số tự nhiên $\beta < \alpha$, sao cho $n = p^{\beta}$  và
+	\begin{align*}
+		\left( {n - 1} \right)! + 1 = {p^{\alpha  - \beta }}. \tag{$2$}
+	\end{align*}
+	Vì  $\beta \in  \mathbb{N}, \alpha \in \mathbb{N^*}$   và $\beta < \alpha$, nên  $\alpha - \beta$ là một số nguyên dương. Do đó, từ ($2$) suy ra
+	\begin{align*}
+		\left( {n - 1} \right)! + 1 \equiv 0\left( {\bmod p} \right). \tag{$3$}
+	\end{align*}
+	Từ ($2$) và ($3$) suy ra $\beta \in \{0;1\}$, vì nếu ngược lại, $\beta \ge 2$,  thì
+	\begin{align*}
+		n - 1 \ge {p^2} - 1 > p \text{ (do $n = p^{\beta}$  và $p \ge 2$)};
+	\end{align*}
+	dẫn tới $\left( {n - 1} \right)! \,\,\vdots\,\, p,$  và do đó,  $1 \,\,\vdots\,\, p$ (theo ($3$)), là điều vô lý.
+	\vskip 0.05cm
+	Với $\beta= 0$, ta có $n = p^0 = 1$. \hfill ($4$)
+	\vskip 0.05cm
+	Với $\beta = 1$, ta có $n = p$; do đó
+	\begin{align*}
+		\left( {p - 1} \right)! + 1 = {p^{\alpha  - 1}}	\quad\text{(theo ($2$))}. \tag{$5$}
+	\end{align*}                                                      
+	Xét $p > 5$. Khi đó
+	\begin{align*}
+		\left( {p - 1} \right)! > \left( {p - 1} \right)\left( {p - 2} \right) > p.
+	\end{align*}
+	Vì thế, từ ($5$) suy ra $\alpha -1\ge 2$, hay $\alpha \ge 3$. Do vậy, từ ($5$) ta có:
+	\begin{align*}
+		&\left( {p - 1} \right)! = {p^{\alpha  - 1}} - 1 \\
+		=\, &\left( {p - 1} \right)\left( {{p^{\alpha  - 2}} + {p^{\alpha  - 3}} +  \cdots  + p + 1} \right).
+	\end{align*}
+	Suy ra
+	\begin{align*}
+		\left( {p \!-\! 2} \right)! \!=\! {p^{\alpha  \!-\! 2}} \!+\! {p^{\alpha  \!-\! 3}} \!+\!  \cdots  \!+\! p \!+\! 1. \tag{$6$}
+	\end{align*}
+	Tiếp theo, do $p$ là số nguyên tố lớn hơn $5$ nên $p - 1$ là một hợp số lớn hơn $4$. Vì thế, tồn tại các số nguyên dương $a, b$, với $1 < a \le b$, sao cho $p - 1 = ab$.
+	\vskip 0.05cm
+	-- Nếu $a = b$ thì
+	\begin{align*}
+		4 < p - 1 = {a^2}. \tag{$7$}
+	\end{align*}
+	Do đó, $a > 2$; suy ra $p - 1 > 2a$. Vì thế, $p - 2 > 2a - 1$; mà $p - 2$ là số nguyên, nên $p - 2 \ge 2a$. Vì vậy
+	\begin{align*}
+	\left( {p - 2} \right)! &= 1 \cdot 2 \cdot  \cdots  \cdot a \cdot  \cdots  \cdot 2a \cdot  \cdots  \cdot \left( {p - 2} \right) \\
+	&\equiv 0\left(\!\! {\bmod p - 1} \right)	\,\,\,\text{(do ($7$))}.
+	\end{align*}
+	-- Nếu $a < b$ thì do $a, b < p - 2$ nên
+	\begin{align*}
+		\left( {p - 2} \right)! &= 1 \cdot 2 \cdot  \cdots  \cdot a \cdot  \cdots  \cdot b \cdot  \cdots  \cdot \left( {p - 2} \right) \\
+		&\equiv 0\left(\!\! {\bmod p - 1} \right) \,\,\,\text{(do $p - 1 = ab$).}
+	\end{align*}
+	Vì vậy, ta có
+	\begin{align*}
+		\left( {p - 2} \right)! \equiv 0\left( {\bmod p - 1} \right). \tag{$8$}
+	\end{align*}
+	Do $p \equiv 1\left( {\bmod p - 1} \right)$  nên từ ($6$) suy ra
+	\begin{align*}
+		\left( {p - 2} \right)! \equiv \alpha  - 1\left( {\bmod p - 1} \right). \tag{$9$}
+	\end{align*}
+	Từ ($8$) và ($9$), ta được:
+	\begin{align*}
+		\alpha  - 1 \equiv 0\left( {\bmod p - 1} \right);
+	\end{align*}
+	mà $\alpha - 1$ là số nguyên dương, nên $\alpha - 1 \ge p - 1$, hay $\alpha \ge p$. Vì thế, theo ($5$), ta có
+	\begin{align*}
+		\left( {p - 1} \right)! + 1 \ge {p^{p - 1}},
+	\end{align*}
+	là điều vô lý.
+	\vskip 0.05cm
+	Điều vô lý vừa nhận được ở trên cho thấy, $p \le 5$; mà $p$ là số nguyên tố, nên \linebreak$p \in \{2; 3; 5\}$. \hfill      ($10$)
+	\vskip 0.05cm
+	Do $n = p$ nên từ ($4$) và ($10$), ta được: \linebreak$n \in \{1; 2; 3; 5\}$. \hfill ($11$)
+	\vskip 0.05cm
+	$\bullet$ Ngược lại, với $n$ thỏa mãn ($11$), ta có
+	\begin{align*}
+		n! + n \in S = \{2; 4; 9; 125\}.
+	\end{align*}
+	Dễ thấy, mỗi số thuộc $S$ đều là một lũy thừa với số mũ nguyên dương của một số nguyên tố.
+	\vskip 0.05cm
+	$\bullet$ Vậy, tất cả các số nguyên dương cần tìm theo yêu cầu đề bài là: $1, 2, 3$ và $5$.
+	\vskip 0.05cm 
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Dễ thấy, trong Lời giải trên ẩn chứa chứng minh của kết quả sau:
+	\vskip 0.05cm
+	``\textit{Nếu $n$ là một hợp số lớn hơn $4$ thì}  
+	\begin{align*}
+		\left( {n - 1} \right)! \equiv 0\left( {\bmod n} \right)."
+	\end{align*}
+	$\pmb{2.}$ Trong số các lời giải Tạp chí nhận được từ bạn đọc, rất tiếc, có một lời giải sai (do người giải bài mắc một số sai sót trong các lập luận) và một lời giải chưa đầy đủ (do người giải bài chưa xét trường hợp $n = 1$).
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Lưu Thị Thanh Hà}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P736.}}
+	(Mức $B$) Bạn An có $8$ quả cân có tổng trọng lượng bằng $16$ kg, và trọng lượng mỗi quả, tính theo đơn vị kg, là một số nguyên dương không vượt quá $8$. Chứng minh rằng, có thể chia $8$ quả cân này thành hai nhóm, sao cho các tổng trọng lượng của các quả cân cùng nhóm bằng nhau.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo cách giải của bạn Phạm Đức Minh, lớp $10$ Toán $2$, trường THPT chuyên Lê Hồng Phong, tỉnh Nam Định})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Dễ thấy, nếu cả $8$ quả cân có trọng lượng như nhau thì điều phải chứng minh theo yêu cầu đề bài là hiển nhiên.
+	\vskip 0.05cm
+	Xét trường hợp trong $8$ quả cân, tồn tại hai quả cân có trọng lượng khác nhau. Gọi $m_1, m_2$  ($m_1 \ne m_2$) là trọng lượng của hai quả cân này; và gọi $m_3, m_4, m_5,m_6,m_7,m_8$  là trọng lượng của sáu quả cân còn lại.
+	\vskip 0.05cm
+	Hiển nhiên, kết luận của bài ra tương đương với khẳng định ``tồn tại một nhóm gồm tối đa $7$ quả cân và tổng trọng lượng của các quả cân thuộc nhóm bằng $8$".
+	\vskip 0.05cm
+	Vì vậy, để chứng minh kết luận của bài ra, ta sẽ chỉ ra một nhóm gồm tối đa $7$ quả cân và tổng trọng lượng của các quả cân thuộc nhóm bằng $8$. Để tránh dài dòng trong diễn đạt, ta gọi nhóm quả cân có tính chất vừa nêu là nhóm ``\textit{tốt}".
+	\vskip 0.05cm
+	Đặt
+	\begin{align*}
+		&{S_1} = {m_1},{S_2} = {m_2},{S_3} = {m_1} + {m_2},\\
+		&{S_4} = {m_1} \!+\! {m_2} \!+\! {m_3},
+		{S_5} = {m_1} \!+\! {m_2} \!+\! {m_3} \!+\! {m_4},\\
+		&{S_6} = {m_1} + {m_2} + {m_3} + {m_4} + {m_5},\\
+		&{S_7} = {m_1} + {m_2} + {m_3} + {m_4} + {m_5} + {m_6},\\
+		&{S_8} = {m_1} + {m_2} + {m_3} + {m_4} + {m_5} + {m_6} + {m_7}.
+	\end{align*}
+	Từ giả thiết của đề bài suy ra $S_1,S_2$  là các số nguyên dương không vượt quá $8$, và \linebreak$S_i, i = \overline{3,8}$,  là các số nguyên dương không vượt quá $15$.
+	\vskip 0.05cm
+	Xảy ra hai trường hợp sau:
+	\vskip 0.05cm
+	$\bullet$ \textit{Trường hợp} $1$: Tồn tại $i \in \{1; 2; \ldots; 8\}$ sao cho ${S_i} \equiv 0\left( {\bmod 8} \right).$
+	\vskip 0.05cm 
+	Khi đó, do $S_i \in \mathbb{N^*}$  và $1 \le S_i \le 15$,  nên $S_i = 8$.  Vì thế, nhóm gồm các quả cân có trọng lượng là các số hạng của tổng $S_i$  là một nhóm tốt.
+	\vskip 0.05cm
+	$\bullet$ \textit{Trường hợp} $2$: Với mọi $i \in \{1; 2; \ldots; 8\}$,  ${S_i}\not  \equiv 0\left( {\bmod 8} \right).$
+	\vskip 0.05cm
+	Trong trường hợp này, do phép chia cho $8$ chỉ có $7$ số dư khác $0$, nên theo nguyên lý Dirichlet, tồn tại các chỉ số $p$, $q$, với $1 \le p < q \le 8$, sao cho
+	\begin{align*}
+		{S_p} \equiv {S_q}\left( {\bmod 8} \right). \tag{$1$}
+	\end{align*}
+	Do ${S_1},{S_2} \in \left\{ {1;2; \ldots ;8} \right\}$ (giả thiết) và  ${S_1},{S_2}\not  \equiv 0\left( {\bmod 8} \right),$ nên ${S_1},{S_2} \in \left\{ {1;2; \ldots ;7} \right\}.$  Mà $S_1 \ne S_2$  (do  $m_1 \ne m_2$), nên ${S_1}\not  \equiv {S_2}\left( {\bmod 8} \right).$  Vì thế, không thể có đồng thời $p = 1$ và $q = 2$. \hfill    ($2$)
+	\vskip 0.05cm
+	Đặt  $T = S_q - S_p$.
+	\vskip 0.05cm
+	Do ($2$) và do $1 \le {S_p},{S_q} \le 15$  nên \linebreak$T \in \mathbb{N^*}, 1 \le T \le 14$,    và
+	\begin{align*}
+	\!T\!=\!	\begin{cases}
+			m_2 + m_3 + \cdots + m_{q-1} \text{ nếu } p=1 \\
+			m_1 + m_3 + \cdots + m_{q-1} \text{ nếu } p=2 \\
+			m_p \!+\! m_{p\!+\!1} \!+\! \cdots \!+\! m_{q-1} \text{ nếu } 3 \!\le\! p \!\le\! 7.\\
+		\end{cases}
+	\end{align*}
+	Do ($1$) nên  $T \equiv 0\left( {\bmod 8} \right);$ mà $1 \le T \le 14$ (theo trên), nên $T = 8$. Vì thế, nhóm gồm các quả cân có trọng lượng là các số hạng của tổng $T$ là một nhóm tốt.
+	\vskip 0.05cm
+	Kết quả xét hai trường hợp trên đây cho ta điều phải chứng minh theo yêu cầu đề bài.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Bài đã ra có thể được phát biểu dưới dạng tương đương sau:
+	\vskip 0.05cm
+	``\textit{Cho tám số nguyên dương (không nhất thiết đôi một khác nhau) không vượt quá $8$ và có tổng bằng $16$. Chứng minh rằng, tồn tại một nhóm gồm tối đa bảy số, trong tám số đó, mà tổng các số thuộc nhóm bằng $8$.}"
+	\vskip 0.05cm
+	Với các bài toán ``kiểu" trên, ý tưởng ``từ các số đã cho, thiết lập các tổng ``con", rồi xét các tổng đó theo một modulo thích hợp", là một ý tưởng tự nhiên và thông dụng.
+	\vskip 0.05cm
+	$\pmb{2.}$ Tất cả lời giải Tạp chí đã nhận được từ bạn đọc đều có ý tưởng giải là ý tưởng vừa nêu trên.
+	\vskip 0.05cm
+	\hfill	\textbf{\color{thachthuctoanhoc}Nguyễn Khắc Minh}
+	\vskip 0.05cm
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P737.}}
+	(Mức $A$) Xét các số thực dương $a, b, c$, thỏa mãn $a^2 + b^2 + c^2 =1$.  Tìm giá trị nhỏ nhất của biểu thức
+	\begin{align*}
+		S = 2\left( {{a^3} + {b^3} + {c^3}} \right) - \left( {a + b + c} \right).
+	\end{align*}
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{của người chấm bài})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Do $a, b, c > 0$ và $a^2 + b^2 + c^2 = 1$,  nên theo bất đẳng thức Cauchy -- Schwarz, ta có:
+	\begin{align*}
+		&{\left( {a + b + c} \right)^2} \\
+		\le &\left( {1 + 1 + 1} \right)\left( {{a^2} + {b^2} + {c^2}} \right) = 3; \tag{$1$}\\
+		&\left( {{a^3} + {b^3} + {c^3}} \right)\left( {a + b + c} \right) \\
+		\ge &{\left( {{a^2} + {b^2} + {c^2}} \right)^2} = 1. \tag{$2$}
+	\end{align*}
+	Do $a, b, c > 0$ nên từ ($1$) suy ra
+	\begin{align*}
+		a + b + c \le \sqrt 3 . \tag{$3$}
+	\end{align*}
+	Lại do $a, b, c > 0$ nên từ ($2$) và ($3$), suy ra
+	\begin{align*}
+		{a^3} + {b^3} + {c^3} \ge \frac{1}{{a + b + c}} \ge \frac{1}{{\sqrt 3 }}. \tag{$4$}
+	\end{align*}
+	Từ ($3$) và ($4$), ta được:
+	\begin{align*}
+		S \ge 2 \cdot \frac{1}{{\sqrt 3 }} - \sqrt 3  =  - \frac{1}{{\sqrt 3 }}.
+	\end{align*}
+	Hơn nữa, dễ thấy, với $a = b = c = \frac{1}{{\sqrt 3 }},$  ta có $a^2 + b^2 + c^2 = 1$  và $S = - \dfrac{1}{\sqrt{3}}$.
+	\vskip 0.05cm 
+	Vì vậy, giá trị nhỏ nhất của $S$ bằng  $- \dfrac{1}{\sqrt{3}}$.
+	\vskip 0.05cm 
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Bài đã ra là một bài toán cơ bản, một ví dụ đơn giản minh họa việc sử dụng bất đẳng thức Cauchy -- Schwarz trong chứng minh bất đẳng thức.
+	\vskip 0.05cm
+	$\pmb{2.}$ Dù đã được nhắc rất nhiều lần trên Tạp chí, vẫn có quá nửa số lời giải, mà Tạp chí đã nhận được từ bạn đọc, mắc lỗi kiến thức cơ bản. Đó là, khẳng định giá trị nhỏ nhất của $S$ bằng  $-\dfrac{1}{\sqrt{3}}$, \textit{ngay sau khi mới chỉ chứng minh được} $S \ge - \dfrac{1}{\sqrt{3}}$.  
+	\vskip 0.05cm
+	\hfill	\textbf{\color{thachthuctoanhoc}Võ Quốc Bá Cẩn}
+	\vskip 0.1cm
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P738.}}
+	(Mức $A$) Cho tam giác $ABC$ ngoại tiếp đường tròn $(I)$. Gọi $J$ là tâm đường tròn bàng tiếp góc $A$ của tam giác đó. Trên cạnh $BC$, lấy điểm $D$ tùy ý, sao cho ba điểm $A, I, D$ không thẳng hàng. Đường thẳng $AD$ cắt các đường thẳng $IB$, $IC$, tương ứng, tại $E$, $F$. Gọi $H$ là trực tâm của tam giác $IEF$, và gọi $K$ là trung điểm của $AD$. Chứng minh ba điểm $K$, $H$, $J$ thẳng hàng.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo Đáp án của BBT Tạp chí})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Gọi $G$ là giao điểm của $AJ$ và $BC$; và gọi $M$, $N$ tương ứng là giao điểm của $AD$ với các đường thẳng $BJ$, $CJ$.
+	\begin{figure}[H]
+		\vspace*{-20pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.98\linewidth]{P738}
+%		\caption{\small\textit{\color{}}}
+		\vspace*{-20pt}
+	\end{figure}
+	Do $I$ là tâm đường tròn nội tiếp và $J$  là tâm đường tròn bàng tiếp góc $A$ của tam giác $ABC$, nên $BI$, $BJ$ tương ứng là phân giác trong, phân giác ngoài của góc $ABG$. Do đó, $IB \bot BJ$, và  $\left( {AGIJ} \right) =  - 1.$ Từ đây, do phép chiếu xuyên tâm bảo toàn tỷ số kép, nên
+	\begin{align*}
+		(ADEM) = B(ADEM) = B(AGIJ)= -1.
+	\end{align*}
+	Vì thế, do $K$ là trung điểm của $AD$, nên theo hệ thức Newton, ta có:
+	\begin{align*}
+		K{D^2} = \overline {KE}  \cdot \overline {KM} . \tag{$1$}
+	\end{align*}
+	Bằng cách tương tự, ta cũng chứng minh được
+	\begin{align*}
+		K{D^2} = \overline {KF}  \cdot \overline {KN} . \tag{$2$}
+	\end{align*}
+	Từ ($1$) và ($2$), suy ra
+	\begin{align*}
+		\overline {KE}  \cdot \overline {KM}  = \overline {KF}  \cdot \overline {KN} ;
+	\end{align*}
+	do đó, $\dfrac{{\overline {KE} }}{{\overline {KN} }} = \dfrac{{\overline {KF} }}{{\overline {KM} }}.$ \hfill ($3$)
+	\vskip 0.05cm
+	Đặt $\dfrac{{\overline {KE} }}{{\overline {KN} }} = k$;  và ký hiệu $f$ là phép vị tự tâm $K$, tỷ số $k$.
+	\vskip 0.05cm
+	Từ ($3$) suy ra, $f$ biến điểm $N$ thành điểm $E$, và biến điểm $M$ thành điểm $F$. \hfill ($4$)
+	\vskip 0.05cm
+	Tiếp theo, do $H$ là trực tâm tam giác $IEF$ (giả thiết) nên $FH \bot IE$, hay $FH \bot IB$ (do $I$, $E$, $B$ thẳng hàng). Mà $BJ \bot IB$ (chứng minh trên), hay $MJ \bot IB$ (do $M, B, J$ thẳng hàng), nên $FH \parallel MJ$.   \hfill     ($5$)
+	\vskip 0.05cm
+	Bằng cách hoàn toàn tương tự, ta cũng chứng minh được $EH \parallel NJ$.  \hfill   ($6$)
+	\vskip 0.05cm
+	Từ ($4$), ($5$) và ($6$) suy ra, $f$ biến đường thẳng $MJ$ thành đường thẳng $FH$, và biến đường thẳng $NJ$ thành đường thẳng $EH$. Do đó, $f$ biến điểm $J$ thành điểm $H$. Mà $K$ là tâm của $f$, nên $K, J, H$ thẳng hàng. Ta có điều phải chứng minh theo yêu cầu đề bài.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Lời giải trên cho thấy, kết luận của bài ra vẫn đúng, khi thay giả thiết ``$D$ thuộc cạnh $BC$, sao cho $A$, $I$, $D$ không thẳng hàng" bởi giả thiết ``$D$ thuộc đường thẳng $BC$, sao cho $A$, $I$, $D$ không thẳng hàng".
+	\vskip 0.05cm
+	$\pmb{2.}$ Tất cả các lời giải Tạp chí nhận được từ bạn đọc là lời giải đúng.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Hạ Vũ Anh}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P739.}}
+	(Mức $A$) Cho dãy số $\left(a_n\right)$  xác định bởi
+	\begin{align*}
+		{a_n} = \left\lfloor {\frac{n}{{\sqrt 2 }}} \right\rfloor  + \left\lfloor {\frac{n}{{\sqrt 3 }}} \right\rfloor , \text{ với mọi } n \in \mathbb{N^*}.
+	\end{align*}
+	Chứng minh rằng, trong dãy $\left(a_n\right)$  có vô hạn số chẵn và vô hạn số lẻ.
+	\vskip 0.1cm
+	($\left\lfloor x \right\rfloor $  ký hiệu số nguyên lớn nhất không vượt quá $x$.)
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa trên ý tưởng của bạn Huỳnh Nguyễn Khánh Duy, lớp $12$ Toán, trường THPT chuyên Tiền Giang, tỉnh Tiền Giang})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Ta có Nhận xét sau:
+	\vskip 0.05cm
+	\textit{Nhận xét.} Với mọi  $x,y \in \mathbb{R}$, do 
+	\begin{align*}
+		x - 1 < \left\lfloor x \right\rfloor  \le x  \text{ và } y - 1 < \left\lfloor y \right\rfloor  \le y,
+	\end{align*}
+	nên
+	\begin{align*}
+		x - y - 1 < \left\lfloor x \right\rfloor  - \left\lfloor y \right\rfloor  < x - y + 1.
+	\end{align*}
+	Với mỗi $n \in \mathbb{N^*}$,  đặt
+	\begin{align*}
+		&{u_n} = \left\lfloor {\frac{{n + 1}}{{\sqrt 2 }}} \right\rfloor  - \left\lfloor {\frac{n}{{\sqrt 2 }}} \right\rfloor \\
+		\text{ và } &{v_n} = \left\lfloor {\frac{{n + 1}}{{\sqrt 3 }}} \right\rfloor  - \left\lfloor {\frac{n}{{\sqrt 3 }}} \right\rfloor .
+	\end{align*}  
+	Theo Nhận xét, với mọi $n \in \mathbb{N^*}$, ta có:
+	\begin{align*}
+		&- 1 + \frac{1}{{\sqrt 2 }} = \frac{{n + 1}}{{\sqrt 2 }} - \frac{n}{{\sqrt 2 }} - 1 \\
+		<\, &{u_n} < \frac{{n + 1}}{{\sqrt 2 }} - \frac{n}{{\sqrt 2 }} + 1 = 1 + \frac{1}{{\sqrt 2 }};
+	\end{align*}
+	mà $u_n \in \mathbb{Z}$  nên
+	\begin{align*}
+		u_n \in \{0;1\}  \text{ với mọi } n \in \mathbb{N^*}. \tag{$1$}
+	\end{align*}
+	Bằng cách hoàn toàn tương tự, ta cũng chứng minh được: 
+	\begin{align*}
+		v_n \in \{0;1\},  \text{ với mọi } n \in \mathbb{N^*}. \tag{$2$}
+	\end{align*}
+	Xét số nguyên dương $k$ tùy ý.
+	\vskip 0.05cm
+	Theo Nhận xét, ta có:
+	\begin{align*}
+		\sum\limits_{i = k}^{k + 100} {{u_i}}  &= \sum\limits_{i = k}^{k + 100} {\left( {\left\lfloor {\frac{{i + 1}}{{\sqrt 2 }}} \right\rfloor  - \left\lfloor {\frac{i}{{\sqrt 2 }}} \right\rfloor } \right)}  \\
+		&= \left\lfloor {\frac{{k + 101}}{{\sqrt 2 }}} \right\rfloor  - \left\lfloor {\frac{k}{{\sqrt 2 }}} \right\rfloor  \\
+		&> \frac{{k + 101}}{{\sqrt 2 }} - \frac{k}{{\sqrt 2 }} - 1 = \frac{{101}}{{\sqrt 2 }} - 1 \\
+		&> 70, \tag{$3$}\\
+		\sum\limits_{i = k}^{k + 100} {{v_i}}  &= \sum\limits_{i = k}^{k + 100} {\left( {\left\lfloor {\frac{{i + 1}}{{\sqrt 3 }}} \right\rfloor  - \left\lfloor {\frac{i}{{\sqrt 3 }}} \right\rfloor } \right)}  \\
+		&= \left\lfloor {\frac{{k + 101}}{{\sqrt 3 }}} \right\rfloor  - \left\lfloor {\frac{k}{{\sqrt 3 }}} \right\rfloor \\
+		& < \frac{{k + 101}}{{\sqrt 3 }} - \frac{k}{{\sqrt 3 }} + 1 = \frac{{101}}{{\sqrt 3 }} + 1\\
+		& < 60. \tag{$4$}
+	\end{align*}
+	\vskip 0.1cm
+	\columnbreak
+	Từ ($1$) và ($3$) suy ra, trong $101$ số ${u_k},{u_{k \!+\! 1}},\! \ldots \!,{u_{k \!+\! 100}}$ có ít nhất $71$ số bằng $1$.
+	\vskip 0.05cm
+	Từ ($2$) và ($4$) suy ra, trong $101$ số ${v_k},{v_{k + 1}}, \ldots ,{v_{k + 100}}$  có tối đa $59$ số bằng $1$.
+	\vskip 0.05cm
+	Vì vậy, tồn tại $m \in \{k; k + 1; \ldots; k + 100\}$ sao cho $u_m = 1$  và $v_m = 0$.
+	\vskip 0.05cm 
+	Ta có:
+	\begin{align*}
+		&{a_{m + 1}} - {a_m}\\
+		= &\left\lfloor {\frac{{m + 1}}{{\sqrt 2 }}} \right\rfloor  + \left\lfloor {\frac{{m + 1}}{{\sqrt 3 }}} \right\rfloor  - \left\lfloor {\frac{m}{{\sqrt 2 }}} \right\rfloor  - \left\lfloor {\frac{m}{{\sqrt 3 }}} \right\rfloor  \\
+		= \,\,&{u_m} + {v_m} = 1.
+	\end{align*}
+	Suy ra, ${a_m}\not  \equiv {a_{m + 1}}\left( {\bmod 2} \right).$  Từ đây, do tính tùy ý của số nguyên dương $k$, suy ra, trong $101$ số hạng liên tiếp tùy ý của dãy $\left(a_n\right)$  luôn có đồng thời cả số chẵn và số lẻ. Mà $\left(a_n\right)$  là dãy vô hạn, nên trong dãy đó có vô hạn số chẵn và vô hạn số lẻ. Ta có điều phải chứng minh theo yêu cầu đề bài.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	Lời giải của bạn \textit{Huỳnh Nguyễn Khánh Duy} là lời giải duy nhất Tạp chí nhận được từ bạn đọc, và là một lời giải đúng.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Lưu Thị Thanh Hà}
+	\end{flushright}
+	{\color{thachthuctoanhoc}{\usefont{T5}{qag}{b}{n} P740.}}
+	(Mức $A$) Cho bảng ô vuông kích thước $2023 \times 2023$. Tìm số nguyên dương $n$ nhỏ nhất, sao cho có thể đặt $n$ viên bi vào các ô vuông con của bảng, đảm bảo các điều kiện sau được đồng thời thỏa mãn:
+	\vskip 0.05cm
+	$i/$ Ở mỗi ô vuông con chỉ có tối đa một viên bi;
+	\vskip 0.05cm
+	$ii/$ Với mỗi ô vuông con không có bi, tổng số viên bi ở hàng và cột chứa ô đó không nhỏ hơn $2023$.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Lời giải} (\textit{dựa theo cách giải của bạn Nguyễn Gia Khánh, lớp $12$ Toán $1$, trường THPT chuyên Hưng Yên, tỉnh Hưng Yên})\textbf{\color{thachthuctoanhoc}.}
+	\vskip 0.05cm
+	Đánh số thứ tự các hàng của bảng đã cho, từ trên xuống dưới, lần lượt bởi $1, 2, \ldots, 2023$; và đánh số thứ tự các cột của bảng đó, từ trái qua phải, lần lượt bởi $1, 2, \ldots, 2023$.
+	\vskip 0.05cm
+	Với mỗi $i \in  \{1; 2; \ldots; 2023\}$, ta gọi hàng được đánh số thứ tự $i$ là hàng $i$, và gọi cột được đánh số thứ tự $i$ là cột $i$.
+	\vskip 0.05cm
+	Với $i, j \in \{1; 2; \ldots; 2023\}$, ký hiệu ô vuông con nằm ở giao của hàng thứ $i$ và cột thứ $j$ bởi $(i, j)$.
+	\vskip 0.05cm
+	Giả sử $n$ là số nguyên dương sao cho có thể đặt $n$ viên bi vào các ô vuông con của bảng, đảm bảo các điều kiện $i/$ và $ii/$ được đồng thời thỏa mãn.
+	\vskip 0.05cm
+	Xét một cách đặt bi tùy ý, thỏa mãn các yêu cầu của đề bài.
+	\vskip 0.05cm
+	Với mỗi $i \in \{1; 2; \ldots; 2023\}$, gọi $a_i$  là số viên bi được đặt vào hàng $i$, và  $b_i$ là số viên bi được đặt vào cột $i$.
+	\vskip 0.05cm
+	Do tổng số viên bi được đặt vào bảng bằng $n$, nên
+	\begin{align*}
+		\sum\limits_{i = 1}^{2023} {{a_i}}  = \sum\limits_{i = 1}^{2023} {{b_i}}  = n. \tag{$1$}
+	\end{align*}
+	Đặt $m = 2023^2 -n$. \hfill    ($2$)
+	\vskip 0.05cm
+	Do số bi ở mỗi ô tối đa là $1$ và trong bảng có $n$ viên bi, nên trong bảng có đúng $n$ ô có bi. Vì thế, trong bảng có đúng $m$ ô không có bi. Giả sử các ô này là $(p_1,q_1), (p_2,q_2), \ldots, (p_m,q_m)$.
+	\vskip 0.05cm 
+	Theo giả thiết của bài ra, với mọi\linebreak $i \in \{1; 2; \ldots; m\}$, đều có
+	\begin{align*}
+		{a_{{p_i}}} + {b_{{q_i}}} \ge 2023. \tag{$3$}
+	\end{align*}
+	Với mỗi $k \in \{1; 2; \ldots; 2023\}$, do trong hàng $k$ có đúng $2023 - a_k$  ô không có bi, và trong cột $k$ có đúng $2023-b_k$  ô không có bi, nên số $k$ xuất hiện đúng $2023- a_k$  lần trong dãy $p_1,p_2,\ldots,p_m$  và xuất hiện đúng $2023-b_k$  lần trong dãy $q_1, q_2,\ldots,q_m$.
+	\vskip 0.05cm 
+	Vì vậy
+	\begin{align*}
+		\sum\limits_{i = 1}^m {{a_{{p_i}}}} & = \sum\limits_{k = 1}^{2023} {\left( {2023 - {a_k}} \right){a_k}} \\
+		& = 2023 \cdot \sum\limits_{k = 1}^{2023} {{a_k}}  - \sum\limits_{k = 1}^{2023} {a_k^2}  \\
+		&= 2023 \cdot n - \sum\limits_{k = 1}^{2023} {a_k^2} \quad\text{(do ($1$))}; \tag{$4$}\\
+		\sum\limits_{i = 1}^m {{b_{{q_i}}}}  &= \sum\limits_{k = 1}^{2023} {\left( {2023 - {b_k}} \right){b_k}}  \\
+		&= 2023 \cdot \sum\limits_{k = 1}^{2023} {{b_k}}  - \sum\limits_{k = 1}^{2023} {b_k^2}  \\
+		&= 2023 \cdot n - \sum\limits_{k = 1}^{2023} {b_k^2} \quad\text{(do ($1$))}. \tag{$5$}
+	\end{align*}
+	Từ ($3$), ($4$) và ($5$), với lưu ý tới ($2$), suy ra
+	\begin{align*}
+		&2023\left( {{{2023}^2} - n} \right) \le \sum\limits_{i = 1}^m {\left( {{a_{{p_i}}} + {b_{{q_i}}}} \right)}  \\
+		= \,&2 \cdot 2023n - \sum\limits_{k = 1}^{2023} {\left( {a_k^2 + b_k^2} \right)} .
+	\end{align*}
+	Do đó
+	\begin{align*}
+			3 \cdot 2023n &\ge {2023^3} + \sum\limits_{k = 1}^{2023} {\left( {a_k^2 + b_k^2} \right)}  \\
+			&\ge {2023^3} + \sum\limits_{k = 1}^{2023} {\frac{{{{\left( {{a_k} + {b_k}} \right)}^2}}}{2}} \\
+			 &\ge {2023^3} + \frac{{{{\left( {\sum\limits_{k = 1}^{2023} {\left( {{a_k} + {b_k}} \right)} } \right)}^2}}}{{2 \cdot 2023}} \\
+			 &= {2023^3} + \frac{{{{\left( {2n} \right)}^2}}}{{2 \cdot 2023}} \quad\left( {{\rm{do}}(1)} \right).
+	\end{align*}
+	Suy ra
+	\begin{align*}
+		2{n^2} - 3 \cdot {2023^2} \cdot n + {2023^4} \le 0.
+	\end{align*}
+	Vì vậy
+	\begin{align*}
+		n \ge \frac{{{{2023}^2}}}{2} &= \frac{{2\left( {{{1011}^2} + {{1012}^2}} \right) - 1}}{2} \\
+		&= {1011^2} + {1012^2} - \frac{1}{2}.
+	\end{align*}
+	Từ đó, do $n \in \mathbb{N^*}$,  suy ra  $n \ge {1011^2} + {1012^2}$.
+	\vskip 0.05cm
+	Xét cách đặt $1011^2 + 1012^2$  viên bi vào bảng, như sau:
+	\vskip 0.05cm
+	Đặt vào mỗi ô vuông con của bảng con $1011 \times 1011$, tạo bởi các hàng $1, 2, \ldots, 1011$ và các cột $1, 2, \ldots, 1011$, một viên bi; và đặt vào mỗi ô vuông con của bảng con $1012 \times 1012$, tạo bởi các hàng $1012, 1013, \ldots, 2023$ và các cột $1012, 1013, \ldots, 2023$, một viên bi.
+	\vskip 0.05cm
+	Dễ thấy, ở cách đặt trên, với mỗi ô vuông con không có bi, tổng số viên bi ở hàng và cột chứa ô đó đúng bằng $2023$. Vì thế, cách đặt đó thỏa mãn tất cả các điều kiện của đề bài.
+	\vskip 0.05cm
+	Vì vậy, $n = 1011^2 + 1012^2$ là số nguyên dương nhỏ nhất thỏa mãn yêu cầu đề bài.
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}Bình luận và Nhận xét}
+	\vskip 0.05cm
+	$\pmb{1.}$ Có thể phát biểu bài đã ra một cách đơn giản hơn, như sau:
+	\vskip 0.05cm
+	``Cho bảng ô vuông kích thước $2023 \times 2023$. Tìm số nguyên dương $n$ nhỏ nhất, để có thể đánh dấu $n$ ô vuông con của bảng, sao cho với mỗi ô vuông con không được đánh dấu, tổng số ô được đánh dấu ở hàng và cột chứa ô đó không nhỏ hơn $2023$."
+	\vskip 0.05cm
+	$\pmb{2.}$ Trong số các lời giải Tạp chí nhận được từ bạn đọc, lời giải của bạn \textit{Nguyễn Gia Khánh} là lời giải đúng duy nhất; các lời giải còn lại đều mắc lỗi thiếu kiểm tra cách đặt $1011^2 + 1012^2$ viên bi, đã chỉ ra ở lời giải, có thỏa mãn các điều kiện của đề bài hay không.
+	\begin{flushright}
+		\textbf{\color{thachthuctoanhoc}Nguyễn Khắc Minh}
+	\end{flushright}
+\end{multicols}
+\newpage
+\begin{center}
+	\textbf{\color{thachthuctoanhoc}DANH SÁCH HỌC SINH CÓ LỜI GIẢI ĐÚNG}
+\end{center}
+\textit{Trong các ngoặc đơn ở phần dưới đây, sau tên lớp là mã hiệu của các bài toán mà học sinh có lời giải đúng.}
+\begin{multicols}{2}
+	\textbf{\color{thachthuctoanhoc}KHỐI THCS}
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THCS Nguyễn Thái Bình}, tỉnh Cà Mau: \textit{Lê Nguyễn Hoàng Nhật Đình} (lớp $9$C; P$731$, P$732$, P$733$, P$734$, P$736$, P$737$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}TH\&THCS Archimedes Đông Anh}, Tp. Hà Nội: \textit{Ngô Minh Chấn} (lớp $9$A$3$; P$732$, P$733$, P$735$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THCS Thanh Xuân}, Quận Thanh Xuân, Tp. Hà Nội: \textit{Doãn Hải Dương} (lớp $7$A$6$; P$735$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THCS Nguyễn Tri Phương}, Tp. Huế, tỉnh Thừa Thiên -- Huế: \textit{Lê Trung Tấn Huy} (lớp $9/6$; P$733$, P$734$, P$735$, P$737$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THCS Nguyễn Chí Thanh}, tỉnh Phú Yên: \textit{Nguyễn Nguyên Chinh} (lớp $9$D; P$734$).
+	\vskip 0.05cm
+	\textbf{\color{thachthuctoanhoc}KHỐI THPT}
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Lê Quý Đôn}, tỉnh Điện Biên: \textit{Nguyễn Ngọc Diệp} (lớp $10$A$1$; P$731$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Nguyễn Quang Diêu}, tỉnh Đồng Tháp: \textit{Đỗ Duy Quang} (lớp $12$T$1$; P$731$, P$734$, P$737$), \textit{Lâm Nhật Tiến} (lớp $12$T$1$; P$734$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT Hà Đông}, tỉnh Hải Dương: \textit{Phạm Văn Đăng} (lớp $11$A; P$735$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Hưng Yên}, tỉnh Hưng Yên: \textit{Phạm Thị Minh Ánh} (lớp $12$ Toán $1$; P$737$), \textit{Nguyễn Gia Khánh} (lớp $12$ Toán $1$; P$738$, P$740$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Lê Hồng Phong}, tỉnh Nam Định: \textit{Phạm Đức Minh} (lớp $10$ Toán $2$; P$731$, P$736$, P$737$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Lương Văn Chánh}, tỉnh Phú Yên: \textit{Đặng Kỳ Nam} (lớp $10$ Toán $1$; P$731$, P$734$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Võ Nguyên Giáp}, tỉnh Quảng Bình: \textit{Trần Đức Phát} (lớp $10$T$1$; P$735$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Tiền Giang}, tỉnh Tiền Giang: \textit{Huỳnh Nguyễn Khánh Duy} (lớp $12$ Toán; P$739$), \textit{Nguyễn Huy Hoàng} (lớp $11$ chuyên Toán; P$731$), \textit{Trương Phúc Vinh} (lớp $12$ Lý; P$731$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Thái Nguyên}, tỉnh Thái Nguyên: \textit{Nguyễn Tiến Dũng} (lớp $11$ Toán; P$735$).
+	\vskip 0.05cm
+	$\bullet$ Trường \textbf{\color{thachthuctoanhoc}THPT chuyên Vĩnh Phúc}, tỉnh Vĩnh Phúc: \textit{Trương Anh Dũng} (lớp $10$A$1$; P$731$, P$733$, P$737$).
+\end{multicols}

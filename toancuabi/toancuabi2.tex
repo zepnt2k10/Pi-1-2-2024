@@ -1,0 +1,661 @@
+\thispagestyle{toancuabinone}
+\pagestyle{toancuabi}
+\everymath{\color{toancuabi}}
+%\blfootnote{$^*$\color{toancuabi}Nguồn: Câu lạc bộ Toán học Unicorn (UMC)}
+\graphicspath{{../toancuabi/pic/}}
+\begingroup
+\AddToShipoutPicture*{\put(0,616){\includegraphics[width=19.3cm]{../bannertoancuabi}}}  
+\AddToShipoutPicture*{\put(80,495){\includegraphics[scale=1]{../tieudeaa.pdf}}}  
+\centering
+\endgroup
+\vspace*{215pt} 
+
+\definecolor{bulgarianrose}{rgb}{0.28, 0.02, 0.03}
+\begin{multicols}{2}
+	Các bạn nhỏ thân mến, tiếp tục với những bài giảng được dạy trong Câu lạc bộ Unicorn Math Circle (UMC), bài viết lần này giới thiệu về chủ đề Phép dời hình và ứng dụng trong việc xây dựng công thức tính diện tích của những hình thường gặp. Những phép dời hình cơ bản được giới thiệu trong bài viết là: Phép đối xứng trục hay phép phản xạ (reflection), phép đối xứng tâm (point reflection), phép quay (rotation) và phép tịnh tiến (translation).
+	\vskip 0.1cm
+	Những phép dời hình được giới thiệu trong bài viết này chỉ di chuyển hình mà không làm thay đổi hình dạng và kích thước của những hình đã cho và do đó những hình mới có diện tích không đổi so với hình cũ.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}$\pmb1$. Phép phản xạ}
+	\begin{figure}[H]
+		\vspace*{-10pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture1}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép biến hình đầu tiên được giới thiệu là phép phản xạ. Phép phản xạ lật một hình để tạo ra hình ảnh phản chiếu (mirror image) của nó.
+	\vskip 0.1cm
+	Tam giác $ABC$ bên trái bị phản xạ (hay lật) qua đường kẻ màu đỏ để tạo thành tam giác $A'B'C'$ bên phải. Hoặc có thể nói là các đỉnh $A$, $B$, và $C$ của tam giác được phản xạ lên đường kẻ màu đỏ để tạo ra ảnh gương là       một tam giác có đỉnh $A'$, $B'$, và $C'$ khác. Người ta gọi đường kẻ màu đỏ đó là trục phản xạ, trục đối xứng hay trục gương. Lưu ý rằng hình thứ $2$, gọi là ảnh, nằm ngược lại hoàn toàn với hình ban đầu. Các bạn nhỏ có thể dễ dàng nhớ điều này khi liên hệ tới chiếc gương: Hình ảnh trong gương phản chiếu mọi thứ, nhưng tất cả trong ảnh bị ngược lại so với thực tế.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture2}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép phản xạ cũng được nhìn thấy ở nhiều hiện tượng trong thực tế. Cảnh mặt trời lặn xuống núi được phản xạ (soi bóng) xuống mặt sông là một trong những hình ảnh phản xạ rất đẹp trong cuộc sống.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture3}
+		\vspace*{-15pt}
+	\end{figure}
+	Do phép phản xạ chỉ lật hình qua một trục nên hình ảnh phản xạ được giữ nguyên hình dáng và kích thước. Điều này cho ta một kết luận quan trọng đó là: Diện tích của hình phản xạ và hình đã cho là như nhau. Chẳng hạn trong ví dụ trên tam giác $ABC$ và tam giác phản xạ của nó là $A'B'C'$ có diện tích bằng nhau. Hơn nữa, quan sát hình đầu tiên, ta thấy rằng hai điểm $A$ và $A'$ có cùng khoảng cách tới trục phản xạ là $3$ đơn vị. Điều tương tự cũng đúng với điểm $B'$ cách $1$ đơn vị và điểm $C'$ cách $3$ đơn vị. Bất cứ khi nào một hình được phản xạ, thì mỗi cặp điểm tương ứng phải cách trục phản xạ một khoảng bằng nhau. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[scale=0.8]{Picture4}
+		\vspace*{-5pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Ví dụ $\pmb1$.} Trong hình vẽ dưới đây tam giác $A'B'C'$ là hình ảnh phản xạ của tam giác $ABC$ qua trục phản xạ $d$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.8\linewidth]{Picture5}
+		\vspace*{-10pt}
+	\end{figure}
+	Dưới đây là một số bài tập để các em luyện tập thêm về hình phản xạ và trục đối xứng trong phép phản xạ.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Bài tập $\pmb{1.1}$:} Hãy vẽ ảnh phản xạ của hình bình hành qua trục phản xạ sau.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.75\linewidth]{Picture6}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{1.2}$:} Một hình chữ nhật $A$ được phản xạ để tạo ra hình chữ nhật $B$. Hãy xác định trục đối xứng.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture7}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{1.3}$:} Hình chữ nhật $A'B'C'D'$ phải nằm ở vị trí nào để khi dùng phép phản xạ qua trục màu đỏ ta thu được hình chữ nhật $ABCD$?
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture8}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}$\pmb2$. Phép đối xứng tâm}
+	\vskip 0.1cm
+	Phép đối xứng tâm xảy ra khi một hình được xây dựng xung quanh một điểm gọi là tâm của hình, hay tâm phản xạ. Với mỗi điểm trong hình, có một điểm khác được tìm thấy đối diện trực tiếp với nó ở phía bên kia sao cho tâm phản xạ là trung điểm của đoạn nối hai điểm đó. Dưới phép đối xứng tâm, các hình không thay đổi hình dáng và kích thước. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.75\linewidth]{Picture9}
+		\vspace*{-10pt}
+	\end{figure}
+	Tam giác $ABC$ bên trái được lấy đối xứng qua tâm $O$ để tạo ra tam giác $A'B'C'$ bên phải. Lúc này điểm $O$ đóng vai trò là trung điểm của đoạn thẳng $AA'$, $BB'$ và $CC'$. Do phép đối xứng tâm không làm thay đổi hình dáng và kích thước nên ta cũng có kết luận diện tích tam giác $ABC$ bằng diện tích tam giác $A'B'C'$. Các bạn nhỏ hãy liên hệ khái niệm tâm đối xứng tới chiếc thấu kính hội tụ: khi căn chỉnh vị trí một cách hợp lý, thì một vật đi qua thấu kính hội tụ sẽ cho ra ảnh ngược chiều với vật và bằng vật.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture10}
+		\vspace*{-15pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.1}$:} Hãy cho biết hình vẽ dưới đây có đối xứng tâm hay không? 
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.7\linewidth]{Picture11}
+		\vspace*{-10pt}
+	\end{figure}
+	Từ hình vẽ ta thấy mỗi điểm của một hình đều có một điểm tương úng thuộc hình còn lại, sao cho khoảng cách của chúng đến tâm là bằng nhau. Ngoài ra hai tam giác còn nằm phía đối diện nhau, nên suy ra chúng có tâm đối xứng. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.7\linewidth]{Picture12}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép đối xứng tâm cũng được nhìn thấy trong nhiều hình ảnh trong thực tế. Việc tạo ra một hình bằng cách lấy hình ảnh đối xứng của những bộ phận đã cho của hình qua một tâm tạo ra những hình ảnh đẹp và cân đối.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height= 0.53\linewidth]{Picture13}
+		\includegraphics[height= 0.53\linewidth]{Picture14}
+		\includegraphics[width= 0.46\linewidth]{Picture15}
+		\includegraphics[width= 0.46\linewidth]{Picture16}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}$\pmb3$. Phép quay}
+	\vskip 0.1cm
+	Một trong những phép dời hình cũng rất hay gặp trong thực tế là phép quay. Phép quay xoay một hình xung quanh một điểm cố định cho trước được gọi là tâm quay.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture17}
+		\vspace*{-10pt}
+	\end{figure}
+	Ở hình minh họa trên, ta đã quay hình tam giác theo hướng ngược chiều kim đồng hồ đến một vị trí mới. Trong một phép quay hình tùy ý luôn có một điểm mà hình đó quay xung quanh, giống như tâm của một chiếc đồng hồ cùng với kim phút và kim giây.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture18}
+		\vspace*{-10pt}
+	\end{figure}
+	Trong ví dụ đưa ra ở trên, điểm đó được đánh dấu bằng điểm $O$ như hình dưới đây.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture19}
+		\vspace*{-10pt}
+	\end{figure}
+	Khi một hình thực hiện hết một vòng quay và trở về vị trí ban đầu thì nó đã thực hiện một phép quay $360$ độ, 
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture20}
+		\vspace*{-10pt}
+	\end{figure}
+	còn nếu quay nửa vòng thì nó thực hiện góc quay $180$ độ.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture21}
+		\vspace*{-10pt}
+	\end{figure}
+	Từ đây ta có ngay một nhận xét: Một phép quay $180$ độ là một phép đối xứng tâm. Mỗi điểm trong hình mới luôn tương ứng với một điểm trong hình cũ có khoảng cách đến tâm quay bằng nhau.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture22}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép quay cũng như phép phản xạ hay phép đối xứng tâm không làm thay đổi hình dạng cũng như kích thước của hình ban đầu và do đó không làm thay đổi diện tích của hình được quay.
+	\vskip 0.1cm
+	Phép quay được tìm thấy trong nhiều hoạt động trong cuộc sống: Trái đất quay, bánh xe quay, trò chơi vòng quay, \ldots 
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height= 0.46\linewidth]{Picture23}\,\,
+		\includegraphics[height= 0.46\linewidth]{Picture24}
+		\includegraphics[width= 0.99\linewidth]{Picture25}
+		\vspace*{-10pt}
+	\end{figure}
+	Dưới đây là ví dụ và bài tập để các bạn thực hành với cách rời hình bằng phép quay nhé.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Ví dụ $\pmb{3.1}$:} Trong hình vẽ dưới đây, hình chữ nhật $B$ thu được bằng cách cho hình chữ nhật $A$ quay một góc $90$ độ (chiều kim đồng hồ) quanh điểm $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.58\linewidth]{Picture26}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{3.1}$:} Hãy quay tam giác sau theo góc $90$ độ ngược chiều kim đồng hồ quanh tâm $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.58\linewidth]{Picture27}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{3.2}$:} Hình vẽ dưới đây cho biết tam giác $ABC$ được quay một góc $90$ độ cùng chiều kim đồng hồ để thu được tam giác $A'B'C'$. Hãy xác định vị trí tâm quay.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.6\linewidth]{Picture28}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}$\pmb4$. Phép tịnh tiến}
+	\vskip 0.1cm
+	Phép rời hình cuối cùng được giới thiệu trong bài viết này là Phép tịnh tiến. Phép tịnh tiến di chuyển hoặc trượt một hình đến một vị trí mới.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture29}
+		\vspace*{-10pt}
+	\end{figure}
+	Trong hình vẽ trên, hình chữ nhật $ABCD$ đã được tịnh tiến, di chuyển hoặc trượt trở thành hình chữ nhật $A'B'C'D'$. Hoặc ta có thể nói rằng các đỉnh $A,B,C$ và $D$ của hình chữ nhật đã được tịnh tiến, di chuyển hoặc trượt tới các đỉnh $A',B',C'$ và $D'$.
+	\vskip 0.1cm  
+	Hình chữ nhật $A'B'C'D'$ gọi là ảnh, di chuyển từ hình chữ nhật $ABCD$ theo hướng đi lên trên rồi sang bên phải. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture30}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép tịnh tiến chỉ di chuyển một đối tượng mà không xoay, lật, hay thay đổi hình dạng hay kích thước của nó và do đó không làm thay đổi diện tích của một hình. Mỗi điểm được di chuyển theo cùng một khoảng cách và cùng một hướng. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture31}
+		\vspace*{-15pt}
+	\end{figure}
+	Cụ thể như trong hình, mỗi điểm được di chuyển sang phải $9$ đơn vị và lên trên $4$ đơn vị. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture32}
+		\vspace*{-15pt}
+	\end{figure}
+	Nếu chúng ta quan sát một chút sẽ thấy ngay một kết quả rất thú vị đó là: Khi kết hợp giữa phép tịnh tiến và phép phản xạ ta sẽ được một phép đối xứng tâm. Minh họa dưới đây cho ta rõ hơn khẳng định này.
+	Hình ngũ giác $A$ qua phép đối xứng tâm $O$ trở thành hình ngũ giác $C$. Tuy nhiên, nếu ta tịnh tiến ngũ giác $A$ thành ngũ giác $B$ rồi lấy phản xạ qua trục $d$ ta cũng thu được ngũ giác $C$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.5\linewidth]{Picture33}
+		\vspace*{-10pt}
+	\end{figure}
+	Chúng ta cũng nhìn thấy nhiều vật được xây dựng bằng phép dùng phép tịnh tiến trong cuộc sống. Những viên gạch trên những bức tường, gạch lát trên sàn nhà hay những bậc trên cầu thang là những minh họa sinh động cho phép tịnh tiến.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height= 0.26\linewidth]{Picture34}
+		\includegraphics[height= 0.26\linewidth]{Picture35}
+		\includegraphics[height= 0.26\linewidth]{Picture36}
+		\vspace*{-10pt}
+	\end{figure}
+	Các bạn cùng ôn luyện thêm về phép tịnh tiến qua những ví dụ và bài tập sau.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Ví dụ $\pmb{4.1}$:} Hình vẽ dưới đây là một biểu diễn của phép tịnh tiến. Hình bình hành đã được di chuyển từ trên xuống góc dưới bên phải. Cụ thể, mỗi điểm của hình bình hành sang phải $3$ đơn vị rồi xuống dưới $2$ đơn vị.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture37}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{4.1}$:} Mô tả phép tịnh tiến từ hình $A$ tới hình $B$ trong hình cho ở dưới.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{Picture38}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb{4.2}$:} Hãy tịnh tiến hình ngôi sao $5$ cánh sau bằng cách di chuyển sang trái $6$ đơn vị, rồi lên trên $3$ đơn vị.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{Picture39}
+		\vspace*{-10pt}
+	\end{figure}
+	Bài viết này đã giới thiệu đến các bạn nhỏ bốn phép dời hình cơ bản: Phép phản xạ, phép đối xứng tâm, phép quay và phép tịnh tiến. Mỗi phép dời hình đều có những tính chất và nhiều ứng dụng hữu ích trong cuộc sống đúng không các bạn. Trong những tính chất này, chúng ta cùng nhắc lại một đặc điểm cơ bản đó là: Những phép dời hình này không làm thay đổi hình dáng hay kích thước và do đó không làm thay đổi diện tích của những hình đã cho. Trong bài viết tiếp theo, chúng ta sẽ dùng tính chất quan trọng này của những phép dời hình để xây dựng công thức tính diện tích của những hình cơ bản. Các em hãy đón đọc Phần $2$ của bài viết trong số sau của tạp chí Pi nhé.
+\end{multicols}
+%\newpage
+%\graphicspath{{../toancuabi/pic/}}
+%\begingroup
+%\AddToShipoutPicture*{\put(106,650){\includegraphics[scale=1]{../tieude.pdf}}}  
+%\centering
+%\endgroup
+%\vspace*{55pt} 
+%\begin{multicols}{2}
+%	Thám tử Xuân Phong đôi khi phải đột nhập vào những nơi hoang vắng, kỳ bí để tìm ra được dấu tích của những kẻ gây án. Một lần nọ, sau bao ngày cải trang để bám sát, theo dõi manh mối, thám tử biết tên trùm tội phạm đang trốn tránh trong một ngôi nhà hẻo lánh ở ngoại ô. Vừa đến trước cửa của ngôi nhà gỗ cổ kính, Xuân Phong gặp một bà lão với đôi mắt tinh anh nhìn mình với vẻ bí mật ``thám tử đó phải không, tôi nhận ngay ra ngài, dù ngài đã cải trang rất kỹ. Phải chăng thám tử đang đi tìm tên trùm? Hắn đang ngồi dưới kia, trong căn phòng cùng những người trong Hiệp hội Thương Gia, nhưng vô cùng nguy hiểm nếu ngài dùng vũ lực ở đây để bắt hắn. Tôi mách ngài nhé, ở dưới đó, có $10$ người, trong đó có lão trùm và những kẻ đồng phạm của lão. Bọn họ là những kẻ luôn nói dối, nhưng cũng có thể có cả những người lương thiện, luôn nói thật, ở ngay bên cạnh. Ngài hãy dùng trí thông minh của mình, chỉ được hỏi rất hạn chế câu hỏi để phán đoán ra những kẻ phạm tội là ai. Ngài hỏi nhiều câu hơn sẽ nguy hiểm cho cả những thương gia lương thiện có thể có mặt ở đó. Và ngài hãy hứa với bà lão này sẽ đảm bảo an toàn cho tôi và gia đình, vì tôi đã liều mình thông báo tin mật này với thám tử".
+%	\vskip 0.1cm
+%	Theo lời bà lão mách bảo, Xuân Phong lần theo một chiếc cầu thang cũ nát và đi xuống một căn phòng khuất dưới tầng hầm. Vừa mở cửa ra, thám tử đã thấy có $10$ người ăn mặc chỉnh tề như nhau, ngồi nghiêm trang quanh một chiếc bàn mười cạnh, mỗi người ngồi tại đỉnh của hình mười cạnh. Ánh sáng lờ mờ trong phòng đủ chiếu rõ dòng chữ ``Cuộc họp thường niên Hiệp hội Thương gia -- Khu vực Duyên Hải". Thật khó để xác định ai là kẻ nói dối trong số họ, vì vẻ ngoài họ đều giống như những thương Gia thường gặp: quyền lực, sắc sảo và oai vệ.
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{xp}
+	%		\vspace*{-15pt}
+	%	\end{figure}
+%	Theo quy định của Hiệp hội Thương gia dành cho những người ngoài, qua lời của bà lão, thám tử có thể đứng dậy bước tới một nơi bất kỳ nào đó trong căn phòng và chỉ được hỏi câu hỏi ``Khoảng cách từ chỗ tôi đứng đến người nói dối gần nhất trong số các anh là bao nhiêu?" cho tất cả những người trong phòng. Sau đó, mỗi người trong số $10$ người ngồi xung quanh bàn sẽ trả lời thám tử, lúc này đã cải trang thành một thương gia muốn gia nhập Hiệp hội. thám tử không được phép đứng lên mặt bàn và tất cả mọi người, kể cả thám tử, đều được phép dùng thước để đo khoảng cách tuỳ ý. Ta cũng được biết rằng ngoài $10$ người và thám tử, trong phòng không còn có người lạ nào khác, hơn nữa $10$ người đều biết rõ ai trong số họ là nói thật và ai trong số họ là nói dối. Em hãy cho biết Xuân Phong có thể sử dụng ít nhất bao nhiêu câu hỏi như trên để biết chắc chắn ai trong số những người ngồi quanh bàn là nói~dối?
+%\end{multicols}
+%\newpage
+%\begingroup
+%\AddToShipoutPicture*{\put(115,670){\includegraphics[scale=1]{../tieude11.pdf}}} 
+%\centering
+%\endgroup
+%\vspace*{35pt}
+%
+%\begin{multicols}{2}
+%	$\pmb{1.}$ Tuấn và Tú cùng tham gia một giải thi đấu cờ vua cùng các bạn học sinh khác trong trường. Hai bạn tổng cộng ghi được $6{.}5$ điểm, trong khi tất cả các bạn học sinh còn lại đều ghi được số điểm bằng nhau. Hỏi có tất cả bao nhiêu học sinh tham gia giải cờ vua đó? (Biết rằng trong giải thi đấu, mỗi người tham gia thi đấu đúng một ván với mỗi người còn lại, ghi được $1$ điểm sau mỗi trận thắng, $0{.}5$ điểm sau mỗi trận hoà và $0$ điểm sau mỗi trận thua).
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{Hinh1}
+	%		\vspace*{-20pt}
+	%	\end{figure}
+%	$\pmb{2.}$ 	Lớp $6$A gồm $22$ bạn chia thành hai đội: Xanh gồm các bạn nam và Đỏ gồm các bạn nữ để tổ chức thi tài đối đáp, trả lời thông minh. Đầu tiên, bạn Hoa ở nhóm Đỏ đối đáp với $6$ bạn nam ở nhóm Xanh và giành chiến thắng. Tiếp theo, bạn Mai ở nhóm Đỏ đối đáp với $7$ bạn nam ở nhóm Xanh và cũng giành chiến thắng. Tiếp tục bạn Huệ ở nhóm Đỏ cũng chiến thắng $8$ bạn nam ở nhóm Xanh. Cứ tiếp tục như vậy, cuối cùng bạn Hà ở nhóm Đỏ đã đối đáp thông minh với toàn bộ các bạn nam ở nhóm Xanh và giành chiến thắng chung cuộc. Hỏi trong lớp có tất cả bao nhiêu bạn nam?
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1.01\linewidth]{Hinh2}
+	%		\vspace*{-5pt}
+	%	\end{figure}
+%	$\pmb{3.}$ 	Có bốn chủ doanh nghiệp tới thăm trường học cũ của mình, mang theo một số món quà với dự định sẽ trao tặng cho các học sinh đang học ở đó. Khi tất cả $252$ em học sinh được mời xếp thành một hàng ngang, chủ doanh nghiệp thứ nhất tặng quà cho mỗi em đứng thứ tư trong hàng (các em ở số thứ tự $4,8,12,$ \ldots). Chủ doanh nghiệp thứ hai lại tặng quà cho mỗi em đứng thứ bảy (các em ở số thứ tự $7,14,21$, \ldots). Chủ doanh nghiệp thứ ba trao tặng quà cho mỗi em đứng thứ mười một (các em ở số thứ tự $11,22,33$, \ldots). Chủ doanh nghiệp thứ tư sẽ tặng quà cho các em còn lại. Hỏi có bao nhiêu em học sinh nhận được quà từ mỗi chủ doanh nghiệp?
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{Hinh3}
+	%		\vspace*{-15pt}
+	%	\end{figure}
+%	$\pmb{4.}$ 	Có ba nhà tài trợ quyết định giúp đỡ một tạp chí khoa học thường thức với tên gọi là Phi. Nhà tài trợ Quốc trao tặng một khoản tiền tính bằng dollar gồm có $4$ chữ số: $2$ chữ số đứng trước dấu phẩy, và hai chữ số sau dấu phẩy, trong đó số cent lẻ (tức là hai chữ số đứng sau dấu phẩy) bằng với đúng số dollar chẵn (tức là hai chữ số đứng trước dấu phẩy; ta nhớ lại $100$ cent $= 1$ dollar). Nhà tài trợ Minh tặng số tiền với số dollar chẵn lớn hơn $3$ dollar so với số dollar chẵn mà nhà tài trợ Quốc đã tặng nhưng số cent lẻ lại ít hơn $8$ lần số cent lẻ của nhà tài trợ Quốc. Nhà tài trợ Vũ hào phóng đem tặng số tiền bằng $1/7$ tổng số tiền của hai nhà tài trợ Quốc và Minh đã trao cộng lại. Hỏi số tiền ủng hộ của ba nhà tài trợ cho tạp chí Phi là bao nhiêu?
+%	\begin{figure}[H]
+	%		\centering
+	%%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.8\linewidth]{Hinh4}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	\vskip 0.1cm
+%	$\pmb{5.}$ 	Trên hòn đảo Ngọc ở giữa một đại dương xanh ngắt có $100$ thổ dân sinh sống, một số người trong họ luôn nói dối, còn những người còn lại luôn nói thật. Mỗi một thổ dân thờ phụng đúng một trong ba vị thần: thần Mặt trời, thần Mặt trăng hoặc thần Đất. Người ta hỏi mỗi thổ dân ba câu hỏi sau đây:
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{Hinh5}
+	%		\vspace*{-20pt}
+	%	\end{figure}
+%	$1.$ Ông (bà) có thờ phụng thần Mặt trời hay không?
+%	\vskip 0.1cm
+%	$2.$ Ông (bà) có thờ phụng thần Mặt trăng hay không?
+%	\vskip 0.1cm
+%	$3.$ Ông (bà) có thờ phụng thần Đất hay không?
+%	\vskip 0.1cm
+%	Có $60$ người trả lời khẳng định ``có" với câu hỏi thứ nhất, $40$ người trả lời khẳng định ``có" với câu hỏi thứ hai và $30$ người trả lời khẳng định ``có" với câu hỏi thứ ba. Hỏi trên đảo Ngọc có bao nhiêu thổ dân nói dối?
+%	\vskip 0.1cm
+%	$\pmb{6.}$ 	Có $100$ em học sinh được mời tới buổi tổng kết cuối năm học của nhà trường. Các ghế trong phòng họp được xếp ngay ngắn thẳng hàng theo dạng một hình vuông với $10$ dãy ghế, mỗi dãy có đúng $10$ chiếc ghế. Buổi họp phải diễn ra muộn hơn do bị cắt điện, vì thế các em học sinh bắt đầu bàn luận trao đổi với các bạn bên cạnh về kết quả điểm trung bình của mình. Em học sinh nào thấy trong tất cả những bạn ngồi kề sát mình: bên trái, bên phải, đằng sau, đằng trước và theo các đường chéo, chỉ có tối đa một bạn có điểm trung bình cao hơn hoặc bằng điểm trung bình của  mình, sẽ tự coi mình là ``có thành tích".
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-10pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.85\linewidth]{Hinh6}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	Hỏi trong buổi họp đó có thể có tối đa bao nhiêu em học sinh đã tự coi mình là ``có thành tích" trong học tập?
+%\end{multicols}
+%\vspace*{-10pt}
+%{\color{toancuabi}\rule{1\linewidth}{0.1pt}}
+%\begingroup
+%\AddToShipoutPicture*{\put(114,178){\includegraphics[scale=1]{../tieude2.pdf}}} 
+%\centering
+%\endgroup
+%\vspace*{75pt}
+%
+%\begin{multicols}{2}
+%	$\pmb{1.}$ Các bạn nam mang kẹo tới lớp để tặng cho các bạn nữ. Bạn Phúc nói rằng mình đã mang tới đúng một nửa tổng số kẹo. Bạn Kiên nói rằng mình đã mang tới đúng một phần ba tổng số kẹo và chỉ chia kẹo của mình cho Mai và Tuyết, hơn nữa Mai được nhiều hơn so với Tuyết là $3$ chiếc kẹo. Em hãy chứng tỏ rằng có một bạn trong số Phúc và Kiên đã \linebreak nhầm lẫn.\\
+%	\textit{Lời giải.} Giả sử cả hai bạn Phúc và Kiên đều không nhầm lẫn. Do Phúc không nhầm, nên tổng số kẹo được mang tới lớp phải là số chẵn (gấp $2$ lần số kẹo mà Phúc mang tới). Do Kiên cũng mang tới một số kẹo là số nguyên, bằng $1/3$ của một số chẵn, nên Kiên cũng mang tới một số kẹo là số chẵn. Theo lời của Kiên, số kẹo mà cậu đã tặng cho các bạn nữ là một số lẻ, do số kẹo mà Mai và Tuyết nhận được khác tính chẵn lẻ (hơn kém nhau là $3$ chiếc, mà $3$ là một số lẻ), mà tổng của hai số khác tính chẵn lẻ là một số lẻ. Ta nhận được mâu thuẫn. Suy ra có ít nhất một bạn nam trong số Phúc và Kiên đã nhầm lẫn.
+%	\begin{figure}[H]
+	%			\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.6\linewidth]{Pi7_bai1}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	$\pmb{2.}$ Ba người thợ cùng đào một chiếc hố. Họ luân phiên lần lượt làm việc, mỗi người làm việc trong một thời gian nhất định. Nếu trong khi một người làm việc hai người còn lại cũng đồng thời đào hố thì hai người này sẽ đào được đúng một nửa hố. Hỏi nếu cả ba người cùng đồng thời đào thì họ sẽ làm nhanh hơn được bao nhiêu lần so với cách làm luân phiên ban đầu?
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{Pi7_bai2}
+	%		\vspace*{-20pt}
+	%	\end{figure}
+%	\textit{Lời giải.} 	Giả sử trong thời gian mỗi người đào ở chiếc hố ban đầu, hai người còn lại sẽ đi đào một chiếc hố bổ sung thêm khác. Như vậy khi kết thúc công việc, cùng với chiếc hố ban đầu, họ sẽ đào thêm được $3\cdot 0{.}5 = 1{.}5$ chiếc hố. Do đó, nếu cả ba người cùng làm công việc đào, thì trong cùng số thời gian như ban đầu, họ sẽ đào được $1+1{.}5=2{.}5$ (hố). Vậy, nếu cả ba người cùng đào thì họ sẽ làm nhanh hơn được $2{.}5$ lần so với cách đào luân phiên lần lượt như ban đầu.
+%	\vskip 0.1cm
+%	$\pmb{3.}$ Ba bạn Gấu, Thỏ và Mèo cùng quyết định xây một con đường từ nhà tới bờ suối với chiều dài $160m$. Các bạn thoả thuận sẽ đầu tư cho dự án mở đường quan trọng này với công sức đều như nhau. Cuối cùng khi dự án hoàn thành, hoá ra bạn Thỏ đã xây được $60$ mét đường, bạn Mèo xây được $100$ mét đường, còn bạn Gấu mải ngủ đông nên không xây được mét nào. Tuy nhiên, Gấu mang tới đóng góp bằng tiền cho dự án là $16$ triệu đồng từ số mật ong bán được của mình. Hỏi hai bạn Mèo và bạn Thỏ cần phải phân chia số tiền cho nhau như thế nào?
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=1\linewidth]{Pi7_bai3}
+	%		\vspace*{-15pt}
+	%	\end{figure}
+%	\textit{Lời giải.} 	Mỗi bạn theo kế hoạch phải xây đúng $\dfrac{160}{3} = 53\dfrac{1}{3}$  mét đường. Thỏ xây được $60$ (m) và Gấu xây được $100$ (m). Như vậy bạn Thỏ đã xây thay cho bạn Gấu số mét đường là
+%	\begin{align*}
+	%		60 - 53 \frac{1}{3} = 6 \frac{2}{3}= \frac{20}{3} \text{ (m)},
+	%	\end{align*}
+%	còn bạn Mèo đã xây thay cho bạn Gấu số mét đường
+%	\begin{align*}
+	%		100- 53 \frac{1}{3} = 46 \frac{2}{3}=\frac{140}{3} \text{ (m).}
+	%	\end{align*}
+%	Vì vậy số tiền mà bạn Gấu mang tới phải chia cho Thỏ và Mèo theo tỷ lệ $2: 14$, tức là Mèo được $14$ triệu đồng, còn Thỏ được $2$ triệu đồng từ số tiền đóng góp công sức của Gấu.
+%	\vskip 0.1cm
+%	$\pmb{4.}$ Bé Ly phải đi trồng hoa vào một hàng các chậu rất dài đặt thành hàng dọc ở công viên. Bé được giao nhiệm vụ là phải trồng hai loại hoa khác nhau vào hai chiếc chậu nếu giữa hai chậu này có đúng hai chiếc chậu, hoặc đúng ba chiếc chậu, hoặc đúng năm chiếc chậu khác. Hỏi bé Ly phải cần ít nhất bao nhiêu loại hoa để thực hiện được nhiệm vụ?
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.45\linewidth]{Pi7_bai4}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	\textit{Lời giải.} Trước tiên ta thấy rằng bé Ly có thể chỉ cần $3$ loại hoa là thực hiện được nhiệm vụ. Thật vậy, giả sử Ly có $3$ loại là $A, B, C$. Khi đó nếu Ly trồng $3$ chậu đầu tiên trong hàng bằng loại $A$, $3$ chậu tiếp theo bằng loại $B$, $3$ chậu tiếp loại $C$ và lại $3$ chậu tiếp theo quay lại bằng loại $A$, vv \ldots thì rõ ràng yêu cầu đặt ra được thực hiện. 
+%	\vskip 0.1cm
+%	Bây giờ giả sử Ly chỉ có $2$ loại hoa là $A$ và $B$. Nếu Ly trồng ở chậu thứ nhất bằng hoa loại $A$ (không mất tính tổng quát), suy ra các chậu có số thứ tự tiếp theo là $4, 5, 7$ phải được trồng bằng hoa loại $B$. Nhưng khi đó giữa hai chậu số $4$ và số $7$ đều được trồng cùng loại hoa $B$ nhưng giữa chúng có đúng hai chậu khác là số $5$ và số $6$, suy ra mâu thuẫn với yêu cầu.
+%	\vskip 0.1cm
+%	Vậy Ly cần ít nhất $3$ loại hoa để trồng theo yêu cầu đặt ra.
+%	 \vskip 0.1cm
+%	$\pmb{5.}$ Trước một trận bóng đá giữa hai đội Xóm Đông và Xóm Bắc có $5$ dự đoán kết quả được đưa ra:
+%	\vskip 0.1cm
+%	$a)$	Sẽ không có tỷ số hoà;
+%	\vskip 0.1cm
+%	$b)$	Đội Xóm Đông sẽ bị thủng lưới;
+%	\vskip 0.1cm
+%	$c)$	Đội Xóm Bắc sẽ thắng;
+%	\vskip 0.1cm
+%	$d)$	Đội Xóm Bắc sẽ không thua;
+%	\vskip 0.1cm
+%	$e)$	Trong trận bóng sẽ có đúng $3$ bàn thắng được ghi.
+%	\vskip 0.1cm
+%	Sau khi trận bóng kết thúc, hoá ra chỉ có đúng $3$ dự đoán là chính xác. Vậy trận đấu đã kết thúc với tỷ số như thế nào?
+%	\begin{figure}[H]
+	%		\centering
+	%%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.85\linewidth]{Pi7_bai5}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	\textit{Lời giải.} Giả sử là đội Xóm Bắc thắng. Khi đó $4$ dự đoán $a)$, $b)$ $c)$ và $d)$ đều đúng, mâu thuẫn với điều kiện đặt ra.
+%	\vskip 0.1cm
+%	Tiếp theo, giả sử trận đấu kết thúc với tỷ số hoà. Khi đó ta lại có các dự đoán $a)$, $c)$ và $e)$ đều sai, điều này cũng mâu thuẫn với điều kiện đã cho.
+%	\vskip 0.1cm
+%	Vì vậy, trong trận bóng này đội Xóm Bắc đã thua. Khi đó các dự đoán $c)$ và $d)$ đều sai, và $3$ dự đoán còn lại là đúng. Có nghĩa là: trận đấu không có tỷ số hoà, có ít nhất một trái bóng được đưa vào lưới của đội Xóm Đông, và trong trận bóng có đúng $3$ bàn thắng được ghi. Điều đó có nghĩa là trận bóng kết thúc với tỷ số $1:2$ nghiêng về phía đội Xóm Đông.
+%	\vskip 0.1cm
+%	$\pmb{6.}$ 	Tại trại hè có $20$ em học sinh tham gia trò chơi Điệp viên tí hon diễn ra trong $2$ tuần. Mỗi Điệp viên tí hon sẽ theo dõi và viết báo cáo tỉ mỉ về sở thích cá nhân của $10$ em khác trong số $20$ em này để nộp cho Sở chỉ huy. Em hãy chứng tỏ rằng có ít nhất $10$ cặp Điệp viên tí hon đã theo dõi lẫn nhau và viết báo cáo về nhau.
+%	\begin{figure}[H]
+	%		\centering
+	%		\vspace*{-5pt}
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width=0.75\linewidth]{Pi7_bai6}
+	%		\vspace*{-15pt}
+	%	\end{figure}
+%	\textit{Lời giải.} Số các cặp Điệp viên tí hon là $\dfrac{20\times 19}{2} = 190$ (cặp). Có tất cả $10\times 20=200$ báo cáo được gửi về Sở chỉ huy vào cuối đợt chơi, suy ra phải có ít nhất $10$ cặp Điệp viên mà hai người trong mỗi cặp báo cáo lẫn nhau về Sở chỉ huy.
+%\end{multicols}
+%
+%\newpage
+%\begingroup
+%\thispagestyle{toancuabinone}
+%\blfootnote{$^1$\color{toancuabi}Ottawa, Canada.}
+%\AddToShipoutPicture*{\put(60,733){\includegraphics[width=17.2cm]{../mathc.pdf}}}
+%%\AddToShipoutPicture*{\put(-2,733){\includegraphics[width=17.2cm]{../mathl.pdf}}} 
+%\AddToShipoutPicture*{\put(110,675){\includegraphics[scale=1]{../tieudeb.pdf}}} 
+%\centering
+%\endgroup
+%\vspace*{35pt}
+%
+%\begin{multicols}{2}
+%	In this article, we discuss the Extremal Principle and its applications.
+%	One of the simplest forms of the principle is as follow:
+%	``in a finite set of numbers, there is a number with minimal value,
+%	i.e. it is smaller than or equal to any other number in the set.
+%	Similarly there is a number with maximal value,
+%	i.e. it is larger than or equal to any other number in the set."
+%	\vskip 0.1cm
+%	\textit{Proof by contradiction} is an extremely useful tool when combining with the Extremal Principle,
+%	as you will see in below examples.
+%	\vskip 0.2cm
+%	\PIbox{{\color{toancuabi}\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Example} (Dancing at a party)}
+	%			At a party no boy danced with all the girls,
+	%			but each girl dances with at least one boy.
+	%			Prove that there are two pairs of girl--boy $(g_1, b_1)$ and $(g_2, b_2)$
+	%			who danced with each other but $g_1$ did not dance with $b_2$
+	%			and $g_2$ did not dance with $b_1.$}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%		Let $b_1$ be \textit{the boy who danced with the maximum number of girls.}
+%		Then there is a girl $g_2$ who he did not danced with.
+%		For $g_2$ there is a boy $b_2$ that $(g_2,b_2)$ danced together.
+%		Among the girls who danced with $b_1$ there is at least one $g_1$ who did not danced with $b_2,$
+%		otherwise $b_2$ danced with $g_2$ and all the girls that $b_1$ danced with,
+%		meaning $b_2$ danced with more girls than $b_1,$ contradicting with the choice of $b_1.$
+%	\vskip 0.2cm
+%	\PIbox{{\color{toancuabi}\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Example} (Infinity by contradiction)}
+	%			$\Omega$ is a set of points on the plane.
+	%			Every point in $\Omega$ is a midpoint of two points in $\Omega$.
+	%			Show that $\Omega$ is infinite set.}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%	Suppose that $\Omega$ is a finite set.
+%	According to the Extremal Principle,
+%	\textit{there exists two points $A, B \in \Omega,$ such that the distance $AB$ is maximal.}
+%	\vskip 0.1cm
+%	Now, since $B \in \Omega,$ there exist two points $C,D \in \Omega$ so that $B$ is the midpoint of $CD.$
+%	\begin{figure}[H]
+	%			\vspace*{-5pt}
+	%			\centering
+	%			\captionsetup{labelformat= empty, justification=centering}
+	%			\begin{tikzpicture}[toancuabi,scale=0.75]
+		%					\draw  (0.,0.)-- (3.,3.);
+		%					\draw  (3.,3.)-- (5.,-3.);
+		%					\draw  (5.,-3.)-- (0.,0.);
+		%					\draw  (0.,0.)-- (4.,0.);
+		%						\draw [fill=white] (0.,0.) circle (1.5pt);
+		%						\draw (-0.32,0.11) node {$A$};
+		%						\draw [fill=white] (3.,3.) circle (1.5pt);
+		%						\draw (3.14,3.37) node {$C$};
+		%						\draw [fill=white] (5.,-3.) circle (1.5pt);
+		%						\draw (5.32,-3.01) node {$D$};
+		%						\draw [fill=white] (4.,0.) circle (1.5pt);
+		%						\draw (4.36,0.15) node {$B$};
+		%				\end{tikzpicture}
+	%			\vspace*{-10pt}
+	%		\end{figure}    
+%	Since one of the angles $\angle ABC,$ $\angle ABD,$ says $\angle ABD$ is at least $90^{\circ},$
+%	thus in $\triangle ABD,$ $AD > AB.$
+%	This contradicts the assumption that $A, B$ are the two points in $\Omega,$ such that the distance $AB$ is maximal.
+%	\vskip 0.1cm	
+%	Thus, there are no such two points $A, B,$ so $\Omega$ is infinite set.
+%	\vskip 0.2cm
+%	\PIbox{{\color{toancuabi}\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Example} (How many olives did the knights eat?)}
+	%		At the dinner of King Anthony, several knights sits around a round table eating green olives.
+	%		Minh, the Magician, made sure that each knight ate either twice as many olives
+	%		or $10$ olives less than his right neighbour. 
+	%		Is that possible that the knights could have eaten exactly $1001$ olives?}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%	Let assume that the knights have eaten exactly $1001$ olives.
+%	Let choose the knight who \textit{ate the smallest number of olives}.
+%	(If there are some of them, choose one.)
+%	His neighbour on the left, knight $k$, ate either $10$ less or twice more.
+%	Since the knight we chose ate the smallest number of olives, then knight $k$ ate twice as many.
+%	Therefore, knight $k$ ate an even number of olives. 
+%	\vskip 0.1cm	
+%	The neighbour on the left of knight $k$ ate either twice as many olives or $10$ olives less,
+%	hence he ate an even number of olives as well. Making the full circle, we'll end us with the first knight,
+%	who must have eaten an even number of olives as well.
+%	\vskip 0.1cm	
+%	Therefore, the total number of olives must be an even number.
+%	The number of olives eaten cannot be $1001.$
+%	\vskip 0.2cm
+%	\PIbox{{\color{toancuabi}\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Example} (Chop the flies)}
+	%		$25$ flies are resting on the outdoor table in the garden, waiting for lunch to be served.
+	%		It is known that for any three of them, two are at a distance less than $20$ cm;
+	%		and there are at least a pair of flies that are further than $20$ cm from each other.
+	%		\vskip 0.1cm
+	%		Minh's mother gave him a fly swatter, shown below, with a hoop of radius $20$ cm,
+	%		With a single strike he can swat the flies where the hoop landed.
+	%		In \textit{at least} how many strikes can he swat all of them?
+	%		\textit{Note that Minh is so fast that the flies do not have time for reaction during and between his lightning strikes.}}
+%	\vskip 0.2cm
+%	\begin{figure}[H]
+	%		\vspace*{-5pt}
+	%		\centering
+	%		\captionsetup{labelformat= empty, justification=centering}
+	%		\includegraphics[width= 0.85\linewidth]{vr}
+	%		%		\caption{\small\textit{\color{}}}
+	%		\vspace*{-10pt}
+	%	\end{figure}
+%	\textit{Solution.}
+%	If no $2$ flies are further than $20$ cm from each other,
+%	Minh can strike them all in $1$ strike by aiming the center of the swatter at any fly. 
+%	But this is not the case, so let's assume there are $2$ flies, $A$ and $B$, that are more than $20$ cm apart.
+%	Then, every other fly is either in a $20$ cm radius of $A$ or in a $20$ cm radius of $B.$
+%	Out of the $23$ remaining flies either at least $12$ will be in the $20$ cm radius of $A$
+%	or $12$ will be in the $20$ cm radius of $B$.
+%	Swatting that the $A$ or $B$ fly with the center of the swatter kills at least $13$.
+%	\vskip 0.1cm
+%	Thus, by $2$ strikes, he can swat them all.
+%	\begin{center}
+	%		\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Vocabulary}
+	%	\end{center}
+%	{\color{toancuabi}Angle}: (dt) góc.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Application}: (dt)  áp dụng, ứng dụng.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Contradiction}: (dt) mâu thuẫn, {\color{toancuabi}proof by contradiction}: chứng minh bằng phản chứng.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Even}: (tt) chẵn, {\color{toancuabi}even number}: số chẵn.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Knight}: (dt) hiệp sỹ.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Neighbour}: (dt) người bên cạnh. 
+%	\vskip 0.1cm
+%	{\color{toancuabi}Midpoint}: (dt) trung điểm.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Discuss}: (đt) thảo luận, trao đổi.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Distance}: (dt) khoảng cách.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Fly}: (dt) côn trùng.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Finite}: (tt) hữu hạn.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Hoop}: (dt) vành, đầu vỉ ruồi.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Infinite}: (tt) vô hạn, vô cùng, infinity (dt). 
+%	\vskip 0.1cm
+%	{\color{toancuabi}Maximal}: (tt) lớn nhất.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Minimal}: (tt) nhỏ nhất.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Olive}: (dt) quả ô-liu. 
+%	\vskip 0.1cm
+%	{\color{toancuabi}Plane}: (dt) mặt phẳng.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Point}: (dt) điểm.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Principle}: (dt) nguyên lý,  {\color{toancuabi}extremal principle}: nguyên lý cực hạn.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Swatter}: vỉ, {\color{toancuabi}fly swatter}: vỉ ruồi.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Set}: (dt) tập hợp.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Strike}: (đt) đập, đánh.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Table}: (dt) cái bàn, {\color{toancuabi}round table}: bàn tròn, {\color{toancuabi}outdoor table}: bàn ngoài trời.
+%	\vskip 0.1cm
+%	{\color{toancuabi}Value}: (dt) giá trị.
+%	
+%\end{multicols}
